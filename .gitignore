@@ -42,3 +42,6 @@
 /public/javascripts/plugins/
 /public/plugins/
 /spec/coffeescripts/plugins/
+
+/.idea
+/canvas.uml
