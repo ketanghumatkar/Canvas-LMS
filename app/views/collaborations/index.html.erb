@@ -1,0 +1,82 @@
+<% content_for :page_title do %><%= join_title t(:page_title, "Collaboration"), @context.name %><% end %>
+
+<% js_bundle :collaborations %>
+
+<% content_for :right_side do %>
+  <div class="rs-margin-all">
+    <p><%= mt :description_rs, <<-HEREDOC, :google_url => "http://docs.google.com", :etherpad_url => "http://www.etherpad.org"
+Free online web tools like [Google Docs](%{google_url}) and [EtherPad](%{etherpad_url})
+are an excellent place for students to work on group projects or papers, take shared notes, etc.
+Teacher *or* students can set up group collaborations.
+HEREDOC
+       %>
+    </p>
+  </div>
+<% end %>
+<a href="#" class="external_link" target="_blank" style="display: none;">&nbsp;</a>
+
+<header class="collaborations-header">
+  <h1 tabindex="-1"><%= t 'titles.current', "Current Collaborations" %></h1>
+
+  <% if can_do(@context, @current_user, :create_collaborations) %>
+    <a href="#"
+       class="add_collaboration_link btn">
+      <i class="icon-add" aria-hidden="true"></i>
+      <%= t('links.new', 'Start a new collaboration') %>
+    </a>
+  <% end %>
+</header>
+
+<div id="no_collaborations_message" style="<%= hidden unless @collaborations.empty? %>">
+  <% if can_do(@context, @current_user, :manage_content) %>
+    <p><%= mt :description_teacher, <<-HEREDOC, :google_url => "http://docs.google.com", :etherpad_url => "http://www.etherpad.org"
+**What do we mean by collaborations?**  We're talking about web-based tools that most
+likely your students are already familiar with.  Students can use resources like
+[Google Docs](%{google_url}) and [EtherPad](%{etherpad_url})
+to work collaboratively on tasks like group papers or note-taking.  This page gives them
+(and you) an easy place to keep track of those collaborations, and also to set them
+up without having to swap emails.
+HEREDOC
+        %></p>
+  <% else %>
+    <p><%= mt :description_student, <<-HEREDOC, :google_url => "http://docs.google.com", :etherpad_url => "http://www.etherpad.org"
+**What do we mean by collaborations?**  We're talking about web-based tools for
+working together on a shared document.  You can use resources like
+[Google Docs](%{google_url}) and [EtherPad](%{etherpad_url})
+to work collaboratively on tasks like group papers or note-taking.  This page is
+an easy place to keep track of those collaborations, and also to set them
+up without having to swap emails.
+HEREDOC
+        %></p>
+  <% end %>
+  <% if can_do(@context, @current_user, :create_collaborations) %>
+    <p>
+      <%= t :how_to_start_a_new_collaboration, 'To find out more about a particular type of collaboration, click "Start a New Collaboration" and then choose that type in the dropdown list.' %>
+    </p>
+  <% end %>
+</div>
+<div id="collaborations">
+<% @collaborations.each do |collaboration| %>
+  <% if can_do(collaboration, @current_user, :read) %>
+    <div class="collaboration <%= collaboration.style_class %> collaboration_<%= collaboration.id %>" data-id="<%= collaboration.id %>">
+      <% if can_do(collaboration, @current_user, :delete) %>
+      <div class="links">
+        <a href="<%= context_url(@context, :context_collaboration_url, collaboration.id) %>" title="<%= t 'links.edit', "Edit this Collaboration" %>" class="edit_collaboration_link no-hover"><%= image_tag "edit.png" %></a>
+        <a href="<%= context_url(@context, :context_collaboration_url, collaboration.id) %>" title="<%= t 'links.delete', "Delete this Collaboration" %>" class="delete_collaboration_link no-hover"><%= image_tag "delete.png" %></a>
+      </div>
+      <% end %>
+      <h3><a href="<%= context_url(@context, :context_collaboration_url, collaboration.id) %>" target="_blank" class="title"><%= collaboration.title %></a></h3>
+      <div style="margin-bottom: 5px;" class="description">
+        <%= collaboration.description %>
+      </div>
+      <span style="font-size: 0.8em;"><%= t :started_by, "Started by *%{user}*, %{at}",
+                                          :user => context_user_name(@context, collaboration.user),
+                                          :wrapper => "<a href=\"#{context_url(@context, :context_user_url, collaboration.user_id)}\" class=\"collaborator_link\">\\1</a>",
+                                          :at => datetime_string(collaboration.created_at) %></span>
+    </div>
+  <% end %>
+<% end %>
+</div>
+<% if can_do(@context, @current_user, :create_collaborations) %>
+  <%= render :partial => 'collaborations/forms' %>
+<% end %>

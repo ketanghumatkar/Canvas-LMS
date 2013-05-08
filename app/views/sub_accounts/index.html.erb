@@ -1,0 +1,25 @@
+<% add_crumb t('titles.sub_accounts', "Sub-Accounts") %>
+<% @active_tab = "sub_accounts" %>
+<% content_for :page_title do %><%= t('titles.sub_accounts', 'Sub-Accounts') %><% end %>
+
+<% content_for :page_header do %>
+  <h1><%= t('titles.sub_accounts', 'Sub-Accounts') %></h1>
+<% end %>
+
+<% content_for :page_subhead do %>
+  <h2><%= @account.name %></h2>
+<% end %>
+
+<% content_for :right_side do %>
+  <%= render :partial => 'shared/accounts_right_side_shared' %>
+<% end %>
+
+<% jammit_css :sub_accounts %>
+<% js_bundle :sub_accounts %>
+
+<div id="sub_account_urls">
+  <a href="<%= context_url(@context, :context_sub_account_url, "{{ id }}") %>" class="sub_account_url" style="display: none;">&nbsp;</a>
+</div>
+<% account_data = @accounts[@context.id] %>
+<%= render :partial => "sub_accounts", :locals => {:account => @context, :depth => 2, :course_count => account_data[:course_count], :sub_account_count => account_data[:sub_account_count]} %>
+<%= render :partial => "sub_accounts" %>

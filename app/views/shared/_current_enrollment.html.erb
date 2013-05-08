@@ -1,0 +1,44 @@
+<% dashboard ||= false %>
+<% unless dashboard %>
+  <li class="<%= 'unpublished' if current_enrollment.course.created? || current_enrollment.course.claimed? %> <%= current_enrollment.state_based_on_date %>">
+<% end %>
+<% if current_enrollment.workflow_state == "invited" %>
+  <div class="<%= dashboard ? 'communication_message dashboard_notification alert alert-info' : 'reminder' %>">
+    <h2><a href="<%= course_path(current_enrollment.course_id, :invitation => current_enrollment.uuid) %>"><%= current_enrollment.long_name %></a></h2>
+    <div class="body">
+      <%=  render :partial => 'shared/invitation', :object => current_enrollment %>
+    </div>
+  </div>
+<% else %>
+  <% show_link = current_enrollment.course.grants_right?(@current_user, session, :read) %>
+  <% if show_link %><a href="<%= course_path(current_enrollment.course_id) %>"><% end %>
+    <span class="name ellipsis" title="<%= current_enrollment.long_name %>">
+      <%= current_enrollment.long_name %>
+      <% if current_enrollment.admin? && (current_enrollment.course.created? || current_enrollment.course.claimed?) %>
+        <%= image_tag "hammer.png", :title => t('course_unpublished', "This course hasn't been published yet"), :alt => "Unpublished", :class => "unpublished_icon" %>
+      <% end %>
+    </span>
+    
+    <% unless current_enrollment.course.enrollment_term.default_term? %>
+      <span class="subtitle ellipsis"><%= current_enrollment.course.enrollment_term.name %></span>
+    <% end %>
+    
+    <%
+       message = t('enrolled_as_student', "Enrolled as a student")
+       case current_enrollment.type
+       when 'TeacherEnrollment'
+         message = t('enrolled_as_teacher', "Enrolled as a teacher")
+       when 'TaEnrollment'
+         message = t('enrolled_as_ta', "Enrolled as a TA")
+       when 'ObserverEnrollment'
+         message = t('enrolled_as_observer', "Enrolled as an observer")
+       when 'DesignerEnrollment'
+         message = t('enrolled_as_designer', "Enrolled as a designer")
+       end
+    %> 
+    <span class="subtitle ellipsis"><%= message %></span>
+  <% if show_link %></a><% end %>
+<% end %>
+<% unless dashboard %>
+  </li>
+<% end %>

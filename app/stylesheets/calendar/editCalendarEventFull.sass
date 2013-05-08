@@ -1,0 +1,21 @@
+@import environment.sass
+
+#editCalendarEventFull
+  .date_start_end_row
+    +clearfix
+    th, td
+      vertical-align: top
+    span
+      float: left
+      padding: 0px 5px
+      min-height: 40px
+    label
+      font-weight: bold
+  .show_if_using_sections
+    display: none
+  &.use_section_dates
+    .show_if_using_sections
+      display: block
+    .hide_if_using_sections
+      display: none
+

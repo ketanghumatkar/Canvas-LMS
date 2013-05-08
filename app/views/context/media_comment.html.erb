@@ -1,0 +1,18 @@
+<% content_for :stylesheets do %>
+<style>
+
+</style>
+<% end %>
+<% js_block do %>
+<script>
+require([
+  'jquery' /* $ */,
+  'media_comments' /* mediaComment */
+], function($) {
+$(document).ready(function() {
+  $.mediaComment.init();
+});
+});
+</script>
+<% end %>
+

@@ -1,0 +1,9 @@
+<% define_content :link do %>
+  <%= HostUrl.protocol %>://<%= HostUrl.context_host(asset.context) %>/<%= asset.context.class.to_s.downcase.pluralize %>/<%= asset.context_id %>/discussion_topics/<%= asset.id %>
+<% end %>
+
+<% define_content :subject do %>
+    <%= t :subject, "New Discussion - %{discussion_topic}: %{course}", :discussion_topic => asset.title, :course => asset.context.name %>
+<% end %>
+
+<%= strip_and_truncate(asset.message, :max_length => 200) %> 

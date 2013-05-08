@@ -1,0 +1,66 @@
+/*
+give the parent box that when you hover over, the trigger should appear the class 'admin-link-hover-area'
+
+sample markup:
+
+<div class="admin-link-hover-area">
+  <div class="admin-links">
+    <button class="al-trigger btn"><span class="screenreader-only">Manage (will be accessibly hidden)</span></button>
+    <ul class="al-options">
+      <li><a href="#"><span class="ui-icon ui-icon-pencil" />Edit</a></li>
+      <li><a href="#"><span class="ui-icon ui-icon-trash" />Delete (from database)</a></li>
+      <li><a href="#"><span class="ui-icon ui-icon-close" />Hide from this screen</a></li>
+      <li><a href="#">an option with no icon</a></li>
+    </ul>
+  </div>
+  put all of the content here
+</div>
+*/
+
+.admin-links {
+  float: right;
+}
+.al-options {
+  display: none;
+  -webkit-font-smoothing: antialiased;
+  &.ui-menu{
+    display: block;
+  }
+}
+.al-options {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0, 0.8);
+  position: absolute;
+  .ui-menu-item a {
+    background-color: black; /* ie<=8 */
+    background-color: rgba(0,0,0, 0.7);
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.5) 1px 0 1px;
+    white-space: nowrap;
+  }
+  .ui-menu-carat {
+    border-color: transparent;
+  }
+  .ui-menu-carat span {
+    border-color: black transparent; /* ie<=8 */
+    border-color: rgba(0,0,0,0.7) transparent;
+  }
+  .ui-state-focus{
+    margin: 0 !important;
+    border: none;
+  }
+}
+
+.admin-link-hover-area:hover .al-trigger,
+.admin-link-hover-area.active .al-trigger,
+.al-trigger.ui-state-active,
+.al-trigger:focus,
+.al-trigger:hover{
+  @include opacity(1);
+}
+
+.al-trigger {
+  padding: 4px;
+  cursor: pointer;
+}

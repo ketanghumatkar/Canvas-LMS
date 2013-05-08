@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>RailsDependency</ID>
+  <OriginalElement>#canvas</OriginalElement>
+  <nodes>
+    <node x="3777.0" y="11489.080137076773">User</node>
+    <node x="5027.5" y="10481.455137076773">ConversationBatch</node>
+    <node x="11889.0" y="12555.125873549265">Attachment</node>
+    <node x="11179.0" y="23109.979213431456">RoleOverride</node>
+    <node x="14787.0" y="586.5">QuizQuestion::CalculatedQuestion</node>
+    <node x="10453.5" y="10852.580137076773">CommunicationChannel</node>
+    <node x="6939.0" y="16568.27252429048">ClonedItem</node>
+    <node x="8840.0" y="15059.792007727752">DiscussionEntry</node>
+    <node x="5772.0" y="5889.441763527508">ContextExternalTool</node>
+    <node x="5089.0" y="2282.875">StreamItemInstance</node>
+    <node x="5069.0" y="4915.066763527508">AssessmentQuestionBank</node>
+    <node x="20126.0" y="0.0">PluginSetting</node>
+    <node x="7948.0" y="8317.705137076773">LearningOutcomeGroup</node>
+    <node x="5674.0" y="13203.181293442038">Group</node>
+    <node x="4104.0" y="9454.221211687389">AppointmentGroupSubContext</node>
+    <node x="22629.0" y="0.0">QuizQuestion::UserAnswer</node>
+    <node x="1193.5" y="1663.0">ReportSnapshot</node>
+    <node x="22871.0" y="0.0">CalendarEvent::IcalEvent</node>
+    <node x="7800.0" y="21732.89286979672">DesignerEnrollment</node>
+    <node x="6989.5" y="20946.89286979672">Wiki</node>
+    <node x="3180.5" y="42.0">StreamItem</node>
+    <node x="4118.5" y="9757.971211687389">AppointmentGroupContext</node>
+    <node x="15151.0" y="34.5">QuizQuestion::MultipleChoiceQuestion</node>
+    <node x="6911.0" y="12078.580137076773">GroupMembership</node>
+    <node x="3204.5" y="19305.39286979672">GradebookUpload</node>
+    <node x="5023.5" y="5327.691763527508">GradingStandard</node>
+    <node x="5862.0" y="11699.830137076773">AccessToken</node>
+    <node x="2024.5" y="3850.0625">BigBlueButtonConference</node>
+    <node x="18537.0" y="0.0">Profile</node>
+    <node x="10505.0" y="10593.580137076773">Notification</node>
+    <node x="21767.0" y="0.0">ConversationMessage::EventFormatter</node>
+    <node x="4003.0" y="17482.51786979672">GoogleDocsCollaboration</node>
+    <node x="10389.0" y="8564.955137076773">SubmissionComment</node>
+    <node x="5058.0" y="14463.580137076773">UserNote</node>
+    <node x="15156.5" y="103.50000000000003">QuizQuestion::ShortAnswerQuestion</node>
+    <node x="1033.5" y="23554.042869796718">EnrollmentTerm</node>
+    <node x="8014.0" y="6281.441763527508">Ignore</node>
+    <node x="14482.5" y="8977.659722222223">AttachmentAssociation</node>
+    <node x="5045.0" y="10987.180137076773">InboxItem</node>
+    <node x="13936.5" y="8483.159722222223">ConversationMessage</node>
+    <node x="23720.0" y="0.0">Role::BuiltInRole</node>
+    <node x="7800.0" y="16197.492007727753">TeacherEnrollment</node>
+    <node x="8804.5" y="4842.941763527508">RubricAssociation</node>
+    <node x="5049.0" y="10180.455137076773">Eportfolio</node>
+    <node x="17171.0" y="0.0">CollectionItemData</node>
+    <node x="5125.0" y="11312.180137076773">UserObserver</node>
+    <node x="4871.0" y="22335.39286979672">StudentEnrollment</node>
+    <node x="16661.0" y="0.0">DelayedMessage</node>
+    <node x="1719.0" y="17655.391713431454">Course</node>
+    <node x="13193.0" y="6374.187499999999">SisBatch</node>
+    <node x="9638.0" y="15218.542007727752">ExternalFeedEntry</node>
+    <node x="7863.0" y="4973.542637076773">Rubric</node>
+    <node x="5954.5" y="9182.455137076773">UserProfileLink</node>
+    <node x="23899.0" y="0.0">OpenObject</node>
+    <node x="16303.0" y="126.5">AssignmentOverrideStudent</node>
+    <node x="6905.0" y="12337.580137076773">Collection</node>
+    <node x="2171.5" y="2.75">Conversation</node>
+    <node x="18929.0" y="0.0">DelayedNotification</node>
+    <node x="5939.0" y="10222.455137076773">EportfolioCategory</node>
+    <node x="11010.0" y="12618.580137076773">Message</node>
+    <node x="5068.5" y="10751.080137076773">CollectionItemUpvote</node>
+    <node x="14039.5" y="8889.159722222223">ContentParticipation</node>
+    <node x="10518.0" y="11258.305137076773">SessionPersistenceToken</node>
+    <node x="15138.0" y="310.5">QuizQuestion::FillInMultipleBlanksQuestion</node>
+    <node x="13932.0" y="8119.159722222222">RubricAssessment</node>
+    <node x="13295.0" y="13395.134722222221">CrocodocDocument</node>
+    <node x="979.0" y="569.8508735492651">AccountAuthorizationConfig</node>
+    <node x="6689.5" y="15169.615851362489">Announcement</node>
+    <node x="21262.0" y="34.5">Tableless</node>
+    <node x="7915.5" y="18357.61585136249">WikiPage</node>
+    <node x="5767.0" y="20380.89286979672">PageView</node>
+    <node x="19362.0" y="0.0">AuthorizationCode</node>
+    <node x="3184.5" y="23931.042869796718">Alert</node>
+    <node x="5779.5" y="6400.441763527508">AssignmentGroup</node>
+    <node x="15167.5" y="517.5">QuizQuestion::MatchingQuestion</node>
+    <node x="7704.0" y="3528.5426370767727">Quiz</node>
+    <node x="6926.0" y="13985.580137076773">ScribdAccount</node>
+    <node x="5152.0" y="9203.455137076773">UserProfile</node>
+    <node x="12221.0" y="23580.042869796718">Role</node>
+    <node x="15170.0" y="172.50000000000003">QuizQuestion::TextOnlyQuestion</node>
+    <node x="15513.0" y="310.5">QuizQuestion::Base</node>
+    <node x="11256.5" y="8140.705137076773">SubmissionCommentParticipant</node>
+    <node x="22372.0" y="0.0">Attachment::OverQuotaError</node>
+    <node x="22089.0" y="0.0">CalendarEvent::ReservationError</node>
+    <node x="6905.0" y="14202.580137076773">ZipFileImport</node>
+    <node x="17628.0" y="0.0">OauthRequest</node>
+    <node x="12981.0" y="8116.207691731082">Submission</node>
+    <node x="4969.0" y="20433.39286979672">AssetUserAccess</node>
+    <node x="8764.0" y="5461.562499999999">QuizSubmission</node>
+    <node x="21032.5" y="69.0">ExternalUrl</node>
+    <node x="13228.5" y="12904.050873549266">Thumbnail</node>
+    <node x="6834.0" y="16086.9327991453">ExternalFeed</node>
+    <node x="9502.0" y="10950.180137076773">Pseudonym</node>
+    <node x="5069.5" y="7399.705137076773">WebConferenceParticipant</node>
+    <node x="4148.0" y="23962.542869796718">AlertCriterion</node>
+    <node x="9573.0" y="9211.955137076773">LearningOutcomeResult</node>
+    <node x="11292.0" y="14505.580137076773">ScribdMimeType</node>
+    <node x="8004.5" y="11366.180137076773">CollectionItem</node>
+    <node x="15165.0" y="586.5">QuizQuestion::NumericalQuestion</node>
+    <node x="15146.0" y="448.5">QuizQuestion::MultipleAnswersQuestion</node>
+    <node x="20731.0" y="0.0">Setting</node>
+    <node x="10507.5" y="23043.917869796718">AccountUser</node>
+    <node x="6763.0" y="21081.89286979672">CalendarEvent</node>
+    <node x="4983.5" y="1905.875">ConversationParticipant</node>
+    <node x="5099.0" y="13487.681293442038">Favorite</node>
+    <node x="7942.5" y="9808.955137076773">LearningOutcome</node>
+    <node x="4003.0" y="17909.51786979672">EtherpadCollaboration</node>
+    <node x="5052.5" y="11775.580137076773">DeveloperKey</node>
+    <node x="9670.0" y="4411.691763527508">QuizQuestion</node>
+    <node x="15167.5" y="379.5">QuizQuestion::UnknownQuestion</node>
+    <node x="5870.0" y="4670.542637076773">AssessmentQuestion</node>
+    <node x="11263.0" y="10697.205137076773">NotificationPolicy</node>
+    <node x="3170.0" y="20214.39286979672">ContentParticipationCount</node>
+    <node x="14781.0" y="0.0">QuizQuestion::MissingWordQuestion</node>
+    <node x="2024.5" y="3318.0625">DimDimConference</node>
+    <node x="15178.0" y="241.50000000000003">QuizQuestion::EssayQuestion</node>
+    <node x="18110.0" y="0.0">CourseProfile</node>
+    <node x="9782.5" y="14963.256293442038">DiscussionEntryParticipant</node>
+    <node x="14789.5" y="69.00000000000003">QuizQuestion::TrueFalseQuestion</node>
+    <node x="6843.0" y="10099.455137076773">EportfolioEntry</node>
+    <node x="4084.0" y="19890.64286979672">ContentExport</node>
+    <node x="8705.5" y="6629.741763527508">ContentTag</node>
+    <node x="3022.5" y="23275.417869796718">CourseSection</node>
+    <node x="23320.0" y="0.0">PseudonymSession</node>
+    <node x="8032.0" y="10172.955137076773">PageComment</node>
+    <node x="20985.0" y="0.0">ContextModuleSubHeader</node>
+    <node x="4968.0" y="17253.4327991453">Collaboration</node>
+    <node x="3022.0" y="4363.0625">WebConference</node>
+    <node x="4871.0" y="17680.4327991453">ObserverEnrollment</node>
+    <node x="3977.0" y="7104.241763527508">ContextModule</node>
+    <node x="6888.0" y="13768.580137076773">Collaborator</node>
+    <node x="3049.0" y="9430.221211687389">AppointmentGroup</node>
+    <node x="9666.5" y="8847.955137076773">AssessmentRequest</node>
+    <node x="30.0" y="8807.345654318153">Account</node>
+    <node x="3128.5" y="19461.39286979672">CourseImport</node>
+    <node x="6533.0" y="6146.441763527508">Assignment</node>
+    <node x="5058.0" y="7616.705137076773">ContextModuleProgression</node>
+    <node x="14476.0" y="5430.721425389383">ConversationMessageParticipant</node>
+    <node x="5112.5" y="4003.0667635275076">UserAccountAssociation</node>
+    <node x="8906.5" y="14846.256293442038">DiscussionTopicParticipant</node>
+    <node x="13153.0" y="14226.207799145299">MediaObject</node>
+    <node x="8699.0" y="21360.452850355236">Enrollment</node>
+    <node x="5903.0" y="7888.705137076773">AssessmentQuestionBankUser</node>
+    <node x="23520.0" y="0.0">Group::Bookmarker</node>
+    <node x="4871.0" y="18578.76786979672">TaEnrollment</node>
+    <node x="2167.0" y="23573.917869796718">EnrollmentDatesOverride</node>
+    <node x="9775.5" y="23033.417869796718">CourseAccountAssociation</node>
+    <node x="21400.0" y="0.0">ContentTag::LastLinkToOutcomeNotDestroyed</node>
+    <node x="24051.0" y="0.0">Mailer</node>
+    <node x="6835.0" y="18000.86585136249">Folder</node>
+    <node x="4949.0" y="730.0">UserService</node>
+    <node x="8009.5" y="12099.125873549265">UserFollow</node>
+    <node x="1124.5" y="17893.391713431454">AbstractCourse</node>
+    <node x="13231.5" y="9646.955137076773">AccountReport</node>
+    <node x="23105.0" y="0.0">ErrorReport::Reporter</node>
+    <node x="8885.5" y="4411.691763527508">QuizGroup</node>
+    <node x="3984.0" y="730.0">DocumentService</node>
+    <node x="5055.0" y="4377.542637076773">Progress</node>
+    <node x="3984.0" y="261.0">BookmarkService</node>
+    <node x="3084.5" y="19762.39286979672">ContentMigration</node>
+    <node x="3906.0" y="22427.042869796718">StudentViewEnrollment</node>
+    <node x="14028.5" y="14341.707799145299">MediaTrack</node>
+    <node x="7772.5" y="14845.95629344204">DiscussionTopic</node>
+    <node x="8897.0" y="18462.61585136249">WikiPageComment</node>
+    <node x="19773.0" y="0.0">DiscussionTopic::MaterializedView</node>
+    <node x="20433.0" y="0.0">QuizSubmissionSnapshot</node>
+    <node x="1130.5" y="0.0">AccountNotification</node>
+    <node x="14761.0" y="310.5">QuizQuestion::MultipleDropdownsQuestion</node>
+    <node x="3184.5" y="2369.725873549265">GroupCategory</node>
+    <node x="15712.0" y="0.0">AssignmentOverride</node>
+    <node x="2024.5" y="2786.0625">WimbaConference</node>
+    <node x="1046.5" y="1202.0">ErrorReport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="User" target="InboxItem">
+      <point x="523.5" y="-123.85185185185219" />
+      <point x="4871.0" y="11128.180137076773" />
+      <point x="-187.5" y="-0.0" />
+    </edge>
+    <edge source="Assignment" target="Attachment">
+      <point x="545.5" y="259.5" />
+      <point x="7704.0" y="7195.241763527508" />
+      <point x="11809.0" y="7195.241763527508" />
+      <point x="-506.0" y="-363.8571428571431" />
+    </edge>
+    <edge source="Course" target="Enrollment">
+      <point x="611.5" y="366.3448275862065" />
+      <point x="3022.0" y="21711.39286979672" />
+      <point x="8619.0" y="21711.39286979672" />
+      <point x="-361.5" y="79.44827586206884" />
+    </edge>
+    <edge source="User" target="AccountUser">
+      <point x="523.5" y="213.92592592592518" />
+      <point x="4871.0" y="15159.115851362489" />
+      <point x="7624.0" y="15159.115851362489" />
+      <point x="7704.0" y="15662.492007727753" />
+      <point x="8619.0" y="15662.492007727753" />
+      <point x="8699.0" y="15813.992007727753" />
+      <point x="10309.0" y="15813.992007727753" />
+      <point x="10389.0" y="23069.917869796718" />
+      <point x="-152.0" y="-52.0" />
+    </edge>
+    <edge source="Course" target="ObserverEnrollment">
+      <point x="611.5" y="-57.2413793103442" />
+      <point x="3022.0" y="18337.64286979672" />
+      <point x="4791.0" y="18337.64286979672" />
+      <point x="-361.5" y="192.0" />
+    </edge>
+    <edge source="User" target="AssessmentRequest">
+      <point x="523.5" y="-236.44444444444525" />
+      <point x="4871.0" y="9058.455137076773" />
+      <point x="9422.0" y="9058.455137076773" />
+      <point x="9502.0" y="9009.955137076773" />
+      <point x="-239.0" y="-0.0" />
+    </edge>
+    <edge source="QuizQuestion::MatchingQuestion" target="QuizQuestion::Base">
+      <point x="118.0" y="-0.0" />
+      <point x="15433.0" y="532.0" />
+      <point x="-77.0" y="9.666666666666686" />
+    </edge>
+    <edge source="Course" target="ZipFileImport">
+      <point x="611.5" y="-11.44827586206884" />
+      <point x="3022.0" y="18502.26786979672" />
+      <point x="5594.0" y="18502.26786979672" />
+      <point x="5674.0" y="17251.36585136249" />
+      <point x="6453.0" y="17251.36585136249" />
+      <point x="6533.0" y="14402.580137076773" />
+      <point x="-173.5" y="80.0" />
+    </edge>
+    <edge source="User" target="User">
+      <point x="-523.5" y="408.8275862068965" />
+      <point x="3747.0" y="12353.90772328367" />
+      <point x="3747.0" y="12431.080137076773" />
+      <point x="4562.25" y="12431.080137076773" />
+      <point x="261.75" y="456.0" />
+    </edge>
+    <edge source="User" target="Group">
+      <point x="523.5" y="90.074074074073" />
+      <point x="4871.0" y="13319.306293442038" />
+      <point x="5594.0" y="13319.306293442038" />
+      <point x="-389.5" y="-77.25" />
+    </edge>
+    <edge source="Group" target="DiscussionTopic">
+      <point x="389.5" y="11.884615384615245" />
+      <point x="6533.0" y="13567.080137076773" />
+      <point x="7624.0" y="13567.080137076773" />
+      <point x="7704.0" y="15016.20629344204" />
+      <point x="-389.0" y="-170.25" />
+    </edge>
+    <edge source="AppointmentGroup" target="AppointmentGroupContext">
+      <point x="279.0" y="112.5" />
+      <point x="3634.0" y="9767.721211687389" />
+      <point x="3714.0" y="9802.221211687389" />
+      <point x="-149.0" y="-44.25" />
+    </edge>
+    <edge source="SubmissionComment" target="Attachment">
+      <point x="270.5" y="107.25" />
+      <point x="11010.0" y="8879.580137076773" />
+      <point x="11809.0" y="8879.580137076773" />
+      <point x="-506.0" y="-323.42857142857065" />
+    </edge>
+    <edge source="Course" target="RubricAssociation">
+      <point x="611.5" y="-423.5862068965507" />
+      <point x="3022.0" y="5262.8125" />
+      <point x="4791.0" y="5262.8125" />
+      <point x="4871.0" y="4649.042637076773" />
+      <point x="8619.0" y="4649.042637076773" />
+      <point x="8699.0" y="4959.041763527508" />
+      <point x="-256.0" y="-77.39999999999964" />
+    </edge>
+    <edge source="Course" target="GradebookUpload">
+      <point x="611.5" y="125.93103448275724" />
+      <point x="3022.0" y="19372.89286979672" />
+      <point x="-123.5" y="-0.0" />
+    </edge>
+    <edge source="Group" target="ZipFileImport">
+      <point x="389.5" y="106.96153846153902" />
+      <point x="6533.0" y="14242.580137076773" />
+      <point x="-173.5" y="-80.0" />
+    </edge>
+    <edge source="Course" target="ContextModule">
+      <point x="611.5" y="-309.1034482758623" />
+      <point x="3022.0" y="7206.241763527508" />
+      <point x="-290.5" y="-102.0" />
+    </edge>
+    <edge source="User" target="Account">
+      <point x="-523.5" y="-408.82758620689674" />
+      <point x="3714.0" y="11659.252550869878" />
+      <point x="3634.0" y="4352.5625" />
+      <point x="979.0" y="4352.5625" />
+      <point x="434.5" y="-40.43478260869597" />
+    </edge>
+    <edge source="EtherpadCollaboration" target="Collaboration">
+      <point x="264.5" y="-0.0" />
+      <point x="4791.0" y="18103.01786979672" />
+      <point x="4871.0" y="17543.6827991453" />
+      <point x="-264.5" y="96.75" />
+    </edge>
+    <edge source="User" target="AssessmentQuestionBankUser">
+      <point x="523.5" y="-326.51851851851825" />
+      <point x="4871.0" y="8037.205137076773" />
+      <point x="-160.5" y="49.5" />
+    </edge>
+    <edge source="Course" target="AppointmentGroup">
+      <point x="611.5" y="-286.20689655172464" />
+      <point x="3022.0" y="9655.221211687389" />
+      <point x="-279.0" y="-0.0" />
+    </edge>
+    <edge source="User" target="CalendarEvent">
+      <point x="523.5" y="371.55555555555475" />
+      <point x="4871.0" y="17242.9327991453" />
+      <point x="5594.0" y="17242.9327991453" />
+      <point x="5674.0" y="18667.641713431454" />
+      <point x="6453.0" y="18667.641713431454" />
+      <point x="6533.0" y="21220.64286979672" />
+      <point x="-315.5" y="-138.75" />
+    </edge>
+    <edge source="DeveloperKey" target="ContextExternalTool">
+      <point x="180.0" y="-94.0" />
+      <point x="5594.0" y="11822.580137076773" />
+      <point x="5674.0" y="6281.941763527508" />
+      <point x="-291.5" y="157.0" />
+    </edge>
+    <edge source="Eportfolio" target="Attachment">
+      <point x="183.5" y="87.0" />
+      <point x="5594.0" y="10397.955137076773" />
+      <point x="5674.0" y="10582.705137076773" />
+      <point x="11809.0" y="10582.705137076773" />
+      <point x="-506.0" y="-283.0" />
+    </edge>
+    <edge source="ContextModule" target="ContextModuleProgression">
+      <point x="290.5" y="102.0" />
+      <point x="4791.0" y="7410.241763527508" />
+      <point x="4871.0" y="7676.705137076773" />
+      <point x="-174.5" y="-60.0" />
+    </edge>
+    <edge source="Course" target="Assignment">
+      <point x="611.5" y="-320.55172413793116" />
+      <point x="3022.0" y="6766.941763527508" />
+      <point x="6453.0" y="6766.941763527508" />
+      <point x="-545.5" y="230.66666666666697" />
+    </edge>
+    <edge source="Attachment" target="CrocodocDocument">
+      <point x="506.0" y="212.25" />
+      <point x="12981.0" y="13452.134722222221" />
+      <point x="-121.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="Pseudonym">
+      <point x="523.5" y="-101.33333333333394" />
+      <point x="4871.0" y="11290.680137076773" />
+      <point x="-403.5" y="-0.0" />
+    </edge>
+    <edge source="StudentEnrollment" target="Enrollment">
+      <point x="361.5" y="-0.0" />
+      <point x="8619.0" y="22623.39286979672" />
+      <point x="-361.5" y="158.89655172413768" />
+    </edge>
+    <edge source="EportfolioCategory" target="EportfolioEntry">
+      <point x="124.5" y="-0.0" />
+      <point x="6453.0" y="10310.955137076773" />
+      <point x="6533.0" y="10342.455137076773" />
+      <point x="-235.5" y="81.0" />
+    </edge>
+    <edge source="Course" target="PageView">
+      <point x="611.5" y="251.86206896551812" />
+      <point x="3022.0" y="20872.89286979672" />
+      <point x="5594.0" y="20872.89286979672" />
+      <point x="5674.0" y="20825.89286979672" />
+      <point x="-296.5" y="178.0" />
+    </edge>
+    <edge source="Assignment" target="Rubric">
+      <point x="545.5" y="-363.3000000000002" />
+      <point x="7704.0" y="5288.542637076773" />
+      <point x="-298.5" y="90.0" />
+    </edge>
+    <edge source="Message" target="Attachment">
+      <point x="399.5" y="-0.0" />
+      <point x="-506.0" y="-121.28571428571377" />
+    </edge>
+    <edge source="Group" target="ExternalFeed">
+      <point x="389.5" y="178.2692307692305" />
+      <point x="6533.0" y="16183.6827991453" />
+      <point x="-244.5" y="-96.75" />
+    </edge>
+    <edge source="Course" target="Group">
+      <point x="611.5" y="-34.34482758620652" />
+      <point x="3022.0" y="18474.76786979672" />
+      <point x="5594.0" y="18474.76786979672" />
+      <point x="-389.5" y="283.25" />
+    </edge>
+    <edge source="Group" target="Collection">
+      <point x="389.5" y="-225.80769230769147" />
+      <point x="6533.0" y="12517.580137076773" />
+      <point x="-173.5" y="60.0" />
+    </edge>
+    <edge source="User" target="LearningOutcomeResult">
+      <point x="523.5" y="-202.66666666666606" />
+      <point x="4871.0" y="9499.955137076773" />
+      <point x="-332.5" y="-0.0" />
+    </edge>
+    <edge source="GradingStandard" target="Assignment">
+      <point x="209.0" y="-0.0" />
+      <point x="6453.0" y="5479.191763527508" />
+      <point x="-545.5" y="-230.66666666666606" />
+    </edge>
+    <edge source="Collaboration" target="Collaborator">
+      <point x="264.5" y="129.0" />
+      <point x="5594.0" y="17575.9327991453" />
+      <point x="5674.0" y="13892.080137076773" />
+      <point x="6453.0" y="13892.080137076773" />
+      <point x="6533.0" y="13916.080137076773" />
+      <point x="-190.5" y="59.0" />
+    </edge>
+    <edge source="User" target="StudentEnrollment">
+      <point x="523.5" y="450.3703703703686" />
+      <point x="-361.5" y="-230.40000000000146" />
+    </edge>
+    <edge source="Group" target="CalendarEvent">
+      <point x="389.5" y="297.11538461538476" />
+      <point x="6533.0" y="21128.14286979672" />
+      <point x="-315.5" y="-231.25" />
+    </edge>
+    <edge source="Account" target="Assignment">
+      <point x="434.5" y="-234.52173913043407" />
+      <point x="979.0" y="1652.5" />
+      <point x="6453.0" y="1652.5" />
+      <point x="-545.5" y="-461.33333333333303" />
+    </edge>
+    <edge source="QuizQuestion::MultipleChoiceQuestion" target="QuizQuestion::Base">
+      <point x="134.5" y="-0.0" />
+      <point x="15433.0" y="49.0" />
+      <point x="-77.0" y="-12.888888888888914" />
+    </edge>
+    <edge source="Account" target="GroupCategory">
+      <point x="434.5" y="-105.13043478260806" />
+      <point x="979.0" y="2425.100873549265" />
+      <point x="2942.0" y="2425.100873549265" />
+      <point x="3022.0" y="2391.850873549265" />
+      <point x="-143.5" y="-66.375" />
+    </edge>
+    <edge source="User" target="MediaObject">
+      <point x="523.5" y="202.66666666666606" />
+      <point x="4871.0" y="14693.080137076773" />
+      <point x="12901.0" y="14693.080137076773" />
+      <point x="12981.0" y="14526.507799145298" />
+      <point x="-263.5" y="85.79999999999927" />
+    </edge>
+    <edge source="Course" target="TaEnrollment">
+      <point x="611.5" y="68.68965517241304" />
+      <point x="3022.0" y="19010.76786979672" />
+      <point x="-361.5" y="144.0" />
+    </edge>
+    <edge source="StreamItem" target="User">
+      <point x="147.5" y="49.5" />
+      <point x="3634.0" y="190.5" />
+      <point x="3714.0" y="11627.80427500781" />
+      <point x="-523.5" y="-440.2758620689656" />
+    </edge>
+    <edge source="AssessmentQuestion" target="Attachment">
+      <point x="193.5" y="70.5" />
+      <point x="6453.0" y="4882.042637076773" />
+      <point x="6533.0" y="4786.191763527508" />
+      <point x="11809.0" y="4786.191763527508" />
+      <point x="-506.0" y="-404.28571428571377" />
+    </edge>
+    <edge source="User" target="ConversationParticipant">
+      <point x="523.5" y="-439.1111111111113" />
+      <point x="4871.0" y="2164.625" />
+      <point x="-249.0" y="86.25" />
+    </edge>
+    <edge source="CourseSection" target="CourseAccountAssociation">
+      <point x="305.5" y="190.66666666666788" />
+      <point x="3714.0" y="23478.917869796718" />
+      <point x="9422.0" y="23478.917869796718" />
+      <point x="9502.0" y="23144.042869796718" />
+      <point x="-130.0" y="22.125" />
+    </edge>
+    <edge source="User" target="UserObserver">
+      <point x="523.5" y="-67.55555555555657" />
+      <point x="4871.0" y="11381.930137076773" />
+      <point x="-107.5" y="23.25" />
+    </edge>
+    <edge source="DiscussionEntry" target="ExternalFeedEntry">
+      <point x="220.5" y="81.0" />
+      <point x="9422.0" y="15302.792007727752" />
+      <point x="9502.0" y="15293.542007727752" />
+      <point x="-267.5" y="-150.0" />
+    </edge>
+    <edge source="Assignment" target="DiscussionTopic">
+      <point x="545.5" y="363.2999999999993" />
+      <point x="7704.0" y="14880.006293442038" />
+      <point x="-389.0" y="-306.4500000000007" />
+    </edge>
+    <edge source="WimbaConference" target="WebConference">
+      <point x="306.0" y="-0.0" />
+      <point x="2942.0" y="3032.0625" />
+      <point x="-306.0" y="-184.5" />
+    </edge>
+    <edge source="Assignment" target="TeacherEnrollment">
+      <point x="545.5" y="467.09999999999945" />
+      <point x="7704.0" y="16293.492007727753" />
+      <point x="-361.5" y="-192.0" />
+    </edge>
+    <edge source="User" target="ConversationBatch">
+      <point x="523.5" y="-168.8888888888887" />
+      <point x="4871.0" y="10590.955137076773" />
+      <point x="-205.0" y="-0.0" />
+    </edge>
+    <edge source="Attachment" target="Submission">
+      <point x="506.0" y="-212.25" />
+      <point x="-435.5" y="347.72727272727207" />
+    </edge>
+    <edge source="EnrollmentTerm" target="Course">
+      <point x="265.5" y="-129.375" />
+      <point x="1619.0" y="23597.167869796718" />
+      <point x="1699.0" y="18464.641713431454" />
+      <point x="-611.5" y="311.25" />
+    </edge>
+    <edge source="Course" target="StudentEnrollment">
+      <point x="611.5" y="412.1379310344819" />
+      <point x="3022.0" y="22416.542869796718" />
+      <point x="4791.0" y="22416.542869796718" />
+      <point x="-361.5" y="-115.20000000000073" />
+    </edge>
+    <edge source="Group" target="GroupMembership">
+      <point x="389.5" y="-273.34615384615427" />
+      <point x="6533.0" y="12215.455137076773" />
+      <point x="-167.5" y="27.375" />
+    </edge>
+    <edge source="Quiz" target="QuizQuestion">
+      <point x="457.5" y="-276.0" />
+      <point x="8699.0" y="3614.6917635275076" />
+      <point x="9422.0" y="3614.6917635275076" />
+      <point x="9502.0" y="4451.691763527508" />
+      <point x="-235.5" y="-80.0" />
+    </edge>
+    <edge source="Course" target="TeacherEnrollment">
+      <point x="611.5" y="91.58620689655072" />
+      <point x="3022.0" y="19181.76786979672" />
+      <point x="5594.0" y="19181.76786979672" />
+      <point x="5674.0" y="17906.891713431454" />
+      <point x="6453.0" y="17906.891713431454" />
+      <point x="6533.0" y="17637.86585136249" />
+      <point x="7624.0" y="17637.86585136249" />
+      <point x="7704.0" y="16677.492007727753" />
+      <point x="-361.5" y="192.0" />
+    </edge>
+    <edge source="User" target="AccessToken">
+      <point x="523.5" y="-22.51851851851825" />
+      <point x="4871.0" y="11765.080137076773" />
+      <point x="5594.0" y="11765.080137076773" />
+      <point x="5674.0" y="11770.330137076773" />
+      <point x="-201.5" y="-70.5" />
+    </edge>
+    <edge source="Group" target="WebConference">
+      <point x="-389.5" y="-128.75" />
+      <point x="5594.0" y="5652.191763527508" />
+      <point x="4871.0" y="5652.191763527508" />
+      <point x="4791.0" y="4606.163373549265" />
+      <point x="3714.0" y="4606.163373549265" />
+      <point x="306.0" y="-205.0" />
+    </edge>
+    <edge source="User" target="AssessmentQuestionBank">
+      <point x="523.5" y="-394.0740740740748" />
+      <point x="4871.0" y="5097.566763527508" />
+      <point x="-163.5" y="73.0" />
+    </edge>
+    <edge source="Group" target="Assignment">
+      <point x="389.5" y="-297.11538461538476" />
+      <point x="-545.5" y="461.33333333333303" />
+    </edge>
+    <edge source="TeacherEnrollment" target="Enrollment">
+      <point x="361.5" y="-0.0" />
+      <point x="8619.0" y="16485.492007727753" />
+      <point x="-361.5" y="-158.89655172413768" />
+    </edge>
+    <edge source="QuizQuestion::EssayQuestion" target="QuizQuestion::Base">
+      <point x="107.5" y="-0.0" />
+      <point x="15433.0" y="256.0" />
+      <point x="-77.0" y="-3.2222222222222285" />
+    </edge>
+    <edge source="Account" target="Role">
+      <point x="434.5" y="347.73913043478206" />
+      <point x="979.0" y="24151.542869796718" />
+      <point x="11809.0" y="24151.542869796718" />
+      <point x="11889.0" y="23689.542869796718" />
+      <point x="-174.0" y="-0.0" />
+    </edge>
+    <edge source="Account" target="Account">
+      <point x="-434.5" y="186.0" />
+      <point x="10.0" y="9365.345654318153" />
+      <point x="10.0" y="9571.345654318153" />
+      <point x="247.25" y="9571.345654318153" />
+      <point x="-217.25" y="372.0" />
+    </edge>
+    <edge source="User" target="Favorite">
+      <point x="523.5" y="123.85185185185219" />
+      <point x="4871.0" y="13565.681293442038" />
+      <point x="-133.5" y="-0.0" />
+    </edge>
+    <edge source="ConversationParticipant" target="ConversationMessageParticipant">
+      <point x="249.0" y="-0.0" />
+      <point x="14396.0" y="2078.375" />
+      <point x="-120.0" y="-33.75" />
+    </edge>
+    <edge source="Course" target="DesignerEnrollment">
+      <point x="611.5" y="389.2413793103442" />
+      <point x="3022.0" y="22020.89286979672" />
+      <point x="-361.5" y="-0.0" />
+    </edge>
+    <edge source="Collaboration" target="Group">
+      <point x="264.5" y="-0.0" />
+      <point x="5594.0" y="17446.9327991453" />
+      <point x="-389.5" y="180.25" />
+    </edge>
+    <edge source="Course" target="RoleOverride">
+      <point x="611.5" y="457.93103448275724" />
+      <point x="3022.0" y="23220.917869796718" />
+      <point x="10930.0" y="23220.917869796718" />
+      <point x="11010.0" y="23273.104213431456" />
+      <point x="-230.5" y="32.625" />
+    </edge>
+    <edge source="QuizQuestion::NumericalQuestion" target="QuizQuestion::Base">
+      <point x="120.5" y="-0.0" />
+      <point x="15433.0" y="601.0" />
+      <point x="-77.0" y="12.888888888888914" />
+    </edge>
+    <edge source="Course" target="AssetUserAccess">
+      <point x="611.5" y="240.41379310344928" />
+      <point x="3022.0" y="20647.89286979672" />
+      <point x="-263.5" y="-0.0" />
+    </edge>
+    <edge source="Submission" target="SubmissionComment">
+      <point x="-435.5" y="-69.54545454545405" />
+      <point x="12901.0" y="8555.705137076773" />
+      <point x="11010.0" y="8555.705137076773" />
+      <point x="270.5" y="-107.25" />
+    </edge>
+    <edge source="ContentMigration" target="ContentExport">
+      <point x="243.5" y="-0.0" />
+      <point x="-183.5" y="-65.25" />
+    </edge>
+    <edge source="Assignment" target="ContentTag">
+      <point x="545.5" y="155.69999999999982" />
+      <point x="7704.0" y="6918.241763527508" />
+      <point x="8619.0" y="6918.241763527508" />
+      <point x="-355.0" y="61.66666666666697" />
+    </edge>
+    <edge source="CourseSection" target="CalendarEvent">
+      <point x="305.5" y="-47.66666666666788" />
+      <point x="3714.0" y="23333.417869796718" />
+      <point x="6453.0" y="23333.417869796718" />
+      <point x="6533.0" y="21498.14286979672" />
+      <point x="-315.5" y="138.75" />
+    </edge>
+    <edge source="Group" target="User">
+      <point x="-389.5" y="25.75" />
+      <point x="5594.0" y="13477.181293442038" />
+      <point x="4871.0" y="13477.181293442038" />
+      <point x="523.5" y="112.59259259259125" />
+    </edge>
+    <edge source="Account" target="Rubric">
+      <point x="434.5" y="-250.6956521739139" />
+      <point x="979.0" y="1641.5" />
+      <point x="7624.0" y="1641.5" />
+      <point x="7704.0" y="5018.542637076773" />
+      <point x="-298.5" y="-180.0" />
+    </edge>
+    <edge source="Course" target="Announcement">
+      <point x="611.5" y="11.44827586206884" />
+      <point x="3022.0" y="18524.26786979672" />
+      <point x="5594.0" y="18524.26786979672" />
+      <point x="5674.0" y="17273.36585136249" />
+      <point x="6453.0" y="17273.36585136249" />
+      <point x="6533.0" y="15765.490851362489" />
+      <point x="-389.0" y="255.375" />
+    </edge>
+    <edge source="Account" target="AccountNotification">
+      <point x="434.5" y="-363.9130434782601" />
+      <point x="979.0" y="120.0" />
+      <point x="-168.5" y="-0.0" />
+    </edge>
+    <edge source="Assignment" target="Quiz">
+      <point x="545.5" y="-467.10000000000036" />
+      <point x="-457.5" y="276.0" />
+    </edge>
+    <edge source="Attachment" target="SisBatch">
+      <point x="506.0" y="-382.0499999999993" />
+      <point x="12981.0" y="6648.687499999999" />
+      <point x="-223.5" y="91.5" />
+    </edge>
+    <edge source="User" target="ContextModuleProgression">
+      <point x="523.5" y="-360.2962962962956" />
+      <point x="4871.0" y="7796.705137076773" />
+      <point x="-174.5" y="60.0" />
+    </edge>
+    <edge source="EportfolioEntry" target="PageComment">
+      <point x="235.5" y="-0.0" />
+      <point x="-129.5" y="-0.0" />
+    </edge>
+    <edge source="ContextModule" target="ContentTag">
+      <point x="290.5" y="-102.0" />
+      <point x="8619.0" y="7206.241763527508" />
+      <point x="-355.0" y="123.33333333333303" />
+    </edge>
+    <edge source="CourseAccountAssociation" target="AccountUser">
+      <point x="130.0" y="-0.0" />
+      <point x="-152.0" y="-0.0" />
+    </edge>
+    <edge source="Folder" target="Folder">
+      <point x="-243.5" y="182.75" />
+      <point x="6815.0" y="18377.11585136249" />
+      <point x="6815.0" y="18407.86585136249" />
+      <point x="6956.75" y="18407.86585136249" />
+      <point x="-121.75" y="193.5" />
+    </edge>
+    <edge source="User" target="UserService">
+      <point x="523.5" y="-450.37037037037044" />
+      <point x="4871.0" y="1087.5" />
+      <point x="-283.5" y="143.0" />
+    </edge>
+    <edge source="Attachment" target="MediaObject">
+      <point x="506.0" y="382.0499999999993" />
+      <point x="12981.0" y="14269.107799145298" />
+      <point x="-263.5" y="-171.60000000000036" />
+    </edge>
+    <edge source="LearningOutcomeGroup" target="LearningOutcomeGroup">
+      <point x="-213.5" y="-0.0" />
+      <point x="7928.0" y="8479.705137076773" />
+      <point x="7928.0" y="8661.705137076773" />
+      <point x="8161.5" y="8661.705137076773" />
+      <point x="0.0" y="162.0" />
+    </edge>
+    <edge source="Course" target="ContentMigration">
+      <point x="611.5" y="160.27586206896376" />
+      <point x="3022.0" y="19955.89286979672" />
+      <point x="-243.5" y="-0.0" />
+    </edge>
+    <edge source="RubricAssessment" target="AssessmentRequest">
+      <point x="-232.0" y="129.60000000000036" />
+      <point x="13852.0" y="9272.338985749731" />
+      <point x="10389.0" y="9272.338985749731" />
+      <point x="10309.0" y="9131.455137076773" />
+      <point x="239.0" y="121.5" />
+    </edge>
+    <edge source="User" target="Rubric">
+      <point x="523.5" y="-349.0370370370365" />
+      <point x="4871.0" y="7867.205137076773" />
+      <point x="6453.0" y="7867.205137076773" />
+      <point x="6533.0" y="6135.941763527508" />
+      <point x="7624.0" y="6135.941763527508" />
+      <point x="7704.0" y="5198.542637076773" />
+      <point x="-298.5" y="-0.0" />
+    </edge>
+    <edge source="Account" target="RoleOverride">
+      <point x="434.5" y="315.391304347826" />
+      <point x="979.0" y="24129.542869796718" />
+      <point x="10930.0" y="24129.542869796718" />
+      <point x="11010.0" y="23338.354213431456" />
+      <point x="-230.5" y="97.875" />
+    </edge>
+    <edge source="DeveloperKey" target="AccessToken">
+      <point x="180.0" y="-0.0" />
+      <point x="5594.0" y="11916.580137076773" />
+      <point x="5674.0" y="11911.330137076773" />
+      <point x="-201.5" y="70.5" />
+    </edge>
+    <edge source="QuizQuestion::ShortAnswerQuestion" target="QuizQuestion::Base">
+      <point x="129.0" y="-0.0" />
+      <point x="15433.0" y="118.00000000000003" />
+      <point x="-77.0" y="-9.666666666666686" />
+    </edge>
+    <edge source="Account" target="User">
+      <point x="434.5" y="-24.260869565217945" />
+      <point x="979.0" y="4865.5625" />
+      <point x="3634.0" y="4865.5625" />
+      <point x="3714.0" y="11816.493930180222" />
+      <point x="-523.5" y="-251.58620689655072" />
+    </edge>
+    <edge source="Submission" target="Attachment">
+      <point x="-435.5" y="278.181818181818" />
+      <point x="506.0" y="-297.14999999999964" />
+    </edge>
+    <edge source="AccountUser" target="RoleOverride">
+      <point x="152.0" y="-0.0" />
+      <point x="10930.0" y="23121.917869796718" />
+      <point x="11010.0" y="23207.854213431456" />
+      <point x="-230.5" y="-32.625" />
+    </edge>
+    <edge source="Attachment" target="AccountReport">
+      <point x="506.0" y="-127.35000000000036" />
+      <point x="12981.0" y="9899.455137076773" />
+      <point x="-185.0" y="101.0" />
+    </edge>
+    <edge source="CommunicationChannel" target="NotificationPolicy">
+      <point x="206.0" y="-70.5" />
+      <point x="10930.0" y="10923.080137076773" />
+      <point x="11010.0" y="10829.955137076773" />
+      <point x="-146.5" y="44.25" />
+    </edge>
+    <edge source="WebConference" target="User">
+      <point x="306.0" y="41.0" />
+      <point x="3714.0" y="11722.149102594016" />
+      <point x="-523.5" y="-345.93103448275906" />
+    </edge>
+    <edge source="User" target="StreamItemInstance">
+      <point x="523.5" y="-427.8518518518522" />
+      <point x="4871.0" y="2415.625" />
+      <point x="-143.5" y="44.25" />
+    </edge>
+    <edge source="Course" target="Alert">
+      <point x="611.5" y="492.27586206896376" />
+      <point x="3022.0" y="23960.542869796718" />
+      <point x="-143.5" y="-59.0" />
+    </edge>
+    <edge source="AssignmentOverride" target="AssignmentOverrideStudent">
+      <point x="255.5" y="-0.0" />
+      <point x="-156.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="Assignment">
+      <point x="523.5" y="-337.7777777777774" />
+      <point x="4871.0" y="7878.205137076773" />
+      <point x="6453.0" y="7878.205137076773" />
+      <point x="-545.5" y="346.0" />
+    </edge>
+    <edge source="User" target="Enrollment">
+      <point x="523.5" y="258.9629629629617" />
+      <point x="4871.0" y="15894.115851362489" />
+      <point x="7624.0" y="15894.115851362489" />
+      <point x="7704.0" y="16051.992007727753" />
+      <point x="8619.0" y="16051.992007727753" />
+      <point x="-361.5" y="-218.4827586206884" />
+    </edge>
+    <edge source="LearningOutcome" target="LearningOutcomeResult">
+      <point x="219.0" y="81.0" />
+      <point x="9422.0" y="10051.955137076773" />
+      <point x="9502.0" y="9691.955137076773" />
+      <point x="-332.5" y="192.0" />
+    </edge>
+    <edge source="QuizQuestion::MultipleDropdownsQuestion" target="QuizQuestion::FillInMultipleBlanksQuestion">
+      <point x="148.5" y="-0.0" />
+      <point x="-147.5" y="-0.0" />
+    </edge>
+    <edge source="ClonedItem" target="WikiPage">
+      <point x="139.5" y="45.0" />
+      <point x="7624.0" y="16680.77252429048" />
+      <point x="7704.0" y="18470.11585136249" />
+      <point x="-246.0" y="-112.5" />
+    </edge>
+    <edge source="Course" target="ContextExternalTool">
+      <point x="611.5" y="-354.8965517241377" />
+      <point x="3022.0" y="6124.941763527508" />
+      <point x="-291.5" y="-0.0" />
+    </edge>
+    <edge source="Group" target="DiscussionEntry">
+      <point x="389.5" y="-35.653846153845734" />
+      <point x="6533.0" y="13545.080137076773" />
+      <point x="8619.0" y="13545.080137076773" />
+      <point x="8699.0" y="15082.93486487061" />
+      <point x="-220.5" y="-138.85714285714312" />
+    </edge>
+    <edge source="Course" target="AssessmentQuestion">
+      <point x="611.5" y="-400.68965517241304" />
+      <point x="3022.0" y="5355.062499999999" />
+      <point x="4791.0" y="5355.062499999999" />
+      <point x="4871.0" y="4811.542637076773" />
+      <point x="-193.5" y="-0.0" />
+    </edge>
+    <edge source="Eportfolio" target="EportfolioCategory">
+      <point x="183.5" y="-0.0" />
+      <point x="-124.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="ScribdAccount">
+      <point x="611.5" y="-22.89655172413768" />
+      <point x="3022.0" y="18485.76786979672" />
+      <point x="5594.0" y="18485.76786979672" />
+      <point x="5674.0" y="17229.36585136249" />
+      <point x="6453.0" y="17229.36585136249" />
+      <point x="6533.0" y="14133.080137076773" />
+      <point x="-152.5" y="59.0" />
+    </edge>
+    <edge source="User" target="CollectionItem">
+      <point x="523.5" y="-56.29629629629562" />
+      <point x="4871.0" y="11415.680137076773" />
+      <point x="-157.0" y="-49.5" />
+    </edge>
+    <edge source="User" target="SubmissionCommentParticipant">
+      <point x="523.5" y="-270.2222222222226" />
+      <point x="4871.0" y="8179.705137076773" />
+      <point x="-153.0" y="-39.0" />
+    </edge>
+    <edge source="Course" target="Course">
+      <point x="-611.5" y="435.75" />
+      <point x="1699.0" y="18589.141713431454" />
+      <point x="1699.0" y="18671.391713431454" />
+      <point x="2330.5" y="18671.391713431454" />
+      <point x="0.0" y="498.0" />
+    </edge>
+    <edge source="Assignment" target="Submission">
+      <point x="545.5" y="-51.899999999999636" />
+      <point x="7704.0" y="6619.241763527508" />
+      <point x="12901.0" y="6619.241763527508" />
+      <point x="-435.5" y="-278.181818181818" />
+    </edge>
+    <edge source="Account" target="EnrollmentTerm">
+      <point x="434.5" y="218.34782608695605" />
+      <point x="979.0" y="23726.542869796718" />
+      <point x="-265.5" y="-0.0" />
+    </edge>
+    <edge source="Account" target="AccountAuthorizationConfig">
+      <point x="434.5" y="-331.56521739130403" />
+      <point x="-320.0" y="-0.0" />
+    </edge>
+    <edge source="Group" target="Folder">
+      <point x="389.5" y="249.57692307692378" />
+      <point x="6533.0" y="18054.61585136249" />
+      <point x="-243.5" y="-139.75" />
+    </edge>
+    <edge source="MediaObject" target="MediaTrack">
+      <point x="263.5" y="-0.0" />
+      <point x="-135.5" y="-0.0" />
+    </edge>
+    <edge source="LearningOutcome" target="ContentTag">
+      <point x="219.0" y="-81.0" />
+      <point x="8619.0" y="9889.955137076773" />
+      <point x="-355.0" y="246.66666666666697" />
+    </edge>
+    <edge source="AssessmentQuestionBank" target="AssessmentQuestionBankUser">
+      <point x="163.5" y="82.125" />
+      <point x="5594.0" y="5106.691763527508" />
+      <point x="5674.0" y="7938.205137076773" />
+      <point x="-160.5" y="-49.5" />
+    </edge>
+    <edge source="Pseudonym" target="CommunicationChannel">
+      <point x="403.5" y="-0.0" />
+      <point x="10389.0" y="11099.330137076773" />
+      <point x="-206.0" y="105.75" />
+    </edge>
+    <edge source="Course" target="GroupCategory">
+      <point x="611.5" y="-480.8275862068949" />
+      <point x="3022.0" y="2524.600873549265" />
+      <point x="-143.5" y="66.375" />
+    </edge>
+    <edge source="Conversation" target="ConversationParticipant">
+      <point x="159.0" y="-0.0" />
+      <point x="2942.0" y="80.75" />
+      <point x="3022.0" y="31.5" />
+      <point x="4791.0" y="31.5" />
+      <point x="4871.0" y="1992.125" />
+      <point x="-249.0" y="-86.25" />
+    </edge>
+    <edge source="User" target="UserProfile">
+      <point x="523.5" y="-213.92592592592518" />
+      <point x="4871.0" y="9260.455137076773" />
+      <point x="-80.5" y="-0.0" />
+    </edge>
+    <edge source="Account" target="Course">
+      <point x="434.5" y="105.13043478260806" />
+      <point x="979.0" y="18185.891713431454" />
+      <point x="1619.0" y="18185.891713431454" />
+      <point x="1699.0" y="18215.641713431454" />
+      <point x="-611.5" y="62.25" />
+    </edge>
+    <edge source="Alert" target="AlertCriterion">
+      <point x="143.5" y="-0.0" />
+      <point x="-119.5" y="-0.0" />
+    </edge>
+    <edge source="AssetUserAccess" target="PageView">
+      <point x="263.5" y="-0.0" />
+      <point x="-296.5" y="-0.0" />
+    </edge>
+    <edge source="Notification" target="Message">
+      <point x="154.5" y="54.75" />
+      <point x="10930.0" y="10757.830137076773" />
+      <point x="-399.5" y="-188.57142857142935" />
+    </edge>
+    <edge source="Course" target="WebConference">
+      <point x="611.5" y="-469.3793103448261" />
+      <point x="-306.0" y="184.5" />
+    </edge>
+    <edge source="LearningOutcomeGroup" target="ContentTag">
+      <point x="213.5" y="-0.0" />
+      <point x="8619.0" y="8479.705137076773" />
+      <point x="-355.0" y="185.0" />
+    </edge>
+    <edge source="EnrollmentTerm" target="EnrollmentDatesOverride">
+      <point x="265.5" y="-43.125" />
+      <point x="-163.5" y="-0.0" />
+    </edge>
+    <edge source="WikiPage" target="WikiPageComment">
+      <point x="246.0" y="-0.0" />
+      <point x="-163.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="Course">
+      <point x="-523.5" y="157.2413793103442" />
+      <point x="3714.0" y="12225.321516387117" />
+      <point x="3634.0" y="12174.200826731947" />
+      <point x="3022.0" y="12174.200826731947" />
+      <point x="611.5" y="-148.82758620689856" />
+    </edge>
+    <edge source="User" target="UserFollow">
+      <point x="523.5" y="-0.0" />
+      <point x="7624.0" y="12068.080137076773" />
+      <point x="7704.0" y="12145.925873549264" />
+      <point x="-152.0" y="-31.200000000000728" />
+    </edge>
+    <edge source="Account" target="AccountUser">
+      <point x="434.5" y="299.217391304348" />
+      <point x="979.0" y="24118.542869796718" />
+      <point x="10309.0" y="24118.542869796718" />
+      <point x="10389.0" y="23173.917869796718" />
+      <point x="-152.0" y="52.0" />
+    </edge>
+    <edge source="Course" target="AssignmentGroup">
+      <point x="611.5" y="-343.44827586206884" />
+      <point x="3022.0" y="6572.941763527508" />
+      <point x="-284.0" y="-0.0" />
+    </edge>
+    <edge source="Attachment" target="AttachmentAssociation">
+      <point x="506.0" y="297.14999999999964" />
+      <point x="12981.0" y="13519.634722222221" />
+      <point x="14396.0" y="13519.634722222221" />
+      <point x="-113.5" y="38.0" />
+    </edge>
+    <edge source="User" target="DeveloperKey">
+      <point x="523.5" y="-11.259259259259125" />
+      <point x="4871.0" y="11916.580137076773" />
+      <point x="-180.0" y="-0.0" />
+    </edge>
+    <edge source="CommunicationChannel" target="Message">
+      <point x="206.0" y="70.5" />
+      <point x="10930.0" y="11064.080137076773" />
+      <point x="-399.5" y="-94.28571428571377" />
+    </edge>
+    <edge source="DiscussionTopic" target="DiscussionEntryParticipant">
+      <point x="389.0" y="-136.20000000000073" />
+      <point x="8619.0" y="15050.256293442038" />
+      <point x="8699.0" y="14991.756293442038" />
+      <point x="-123.0" y="-28.5" />
+    </edge>
+    <edge source="Account" target="Enrollment">
+      <point x="434.5" y="234.52173913043407" />
+      <point x="979.0" y="23909.542869796718" />
+      <point x="8619.0" y="23909.542869796718" />
+      <point x="-361.5" y="278.06896551724276" />
+    </edge>
+    <edge source="QuizQuestion::TextOnlyQuestion" target="QuizQuestion::Base">
+      <point x="115.5" y="-0.0" />
+      <point x="15433.0" y="187.00000000000003" />
+      <point x="-77.0" y="-6.444444444444457" />
+    </edge>
+    <edge source="GroupCategory" target="Group">
+      <point x="143.5" y="44.25" />
+      <point x="3634.0" y="2502.475873549265" />
+      <point x="3714.0" y="2558.5" />
+      <point x="5594.0" y="2558.5" />
+      <point x="-389.5" y="-180.25" />
+    </edge>
+    <edge source="User" target="Collection">
+      <point x="523.5" y="33.777777777777374" />
+      <point x="4871.0" y="12397.580137076773" />
+      <point x="-173.5" y="-60.0" />
+    </edge>
+    <edge source="EnrollmentTerm" target="CourseSection">
+      <point x="265.5" y="43.125" />
+      <point x="1619.0" y="23769.667869796718" />
+      <point x="1699.0" y="23803.417869796718" />
+      <point x="2942.0" y="23803.417869796718" />
+      <point x="-305.5" y="160.875" />
+    </edge>
+    <edge source="User" target="Attachment">
+      <point x="523.5" y="56.29629629629562" />
+      <point x="4871.0" y="12608.080137076773" />
+      <point x="11809.0" y="12608.080137076773" />
+      <point x="-506.0" y="-161.71428571428623" />
+    </edge>
+    <edge source="Account" target="AccountReport">
+      <point x="434.5" y="-315.391304347826" />
+      <point x="979.0" y="1169.5" />
+      <point x="12901.0" y="1169.5" />
+      <point x="12981.0" y="9697.455137076773" />
+      <point x="-185.0" y="-101.0" />
+    </edge>
+    <edge source="Notification" target="NotificationPolicy">
+      <point x="154.5" y="-54.75" />
+      <point x="10930.0" y="10648.330137076773" />
+      <point x="11010.0" y="10741.455137076773" />
+      <point x="-146.5" y="-44.25" />
+    </edge>
+    <edge source="User" target="CommunicationChannel">
+      <point x="523.5" y="-157.62962962962956" />
+      <point x="4871.0" y="10740.580137076773" />
+      <point x="10309.0" y="10740.580137076773" />
+      <point x="10389.0" y="10887.830137076773" />
+      <point x="-206.0" y="-105.75" />
+    </edge>
+    <edge source="User" target="Collaboration">
+      <point x="523.5" y="394.074074074073" />
+      <point x="4871.0" y="17350.1827991453" />
+      <point x="-264.5" y="-96.75" />
+    </edge>
+    <edge source="User" target="WebConference">
+      <point x="-523.5" y="-377.3793103448279" />
+      <point x="3714.0" y="11690.700826731947" />
+      <point x="306.0" y="-41.0" />
+    </edge>
+    <edge source="DocumentService" target="UserService">
+      <point x="283.5" y="-0.0" />
+      <point x="-283.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="ObserverEnrollment">
+      <point x="523.5" y="416.59259259259125" />
+      <point x="-361.5" y="-192.0" />
+    </edge>
+    <edge source="Submission" target="RubricAssessment">
+      <point x="435.5" y="-153.0" />
+      <point x="-232.0" y="64.79999999999927" />
+    </edge>
+    <edge source="Submission" target="ContentParticipation">
+      <point x="435.5" y="153.0" />
+      <point x="13932.0" y="8956.659722222223" />
+      <point x="-124.5" y="-0.0" />
+    </edge>
+    <edge source="Account" target="Alert">
+      <point x="434.5" y="266.86956521739194" />
+      <point x="979.0" y="24019.542869796718" />
+      <point x="-143.5" y="-0.0" />
+    </edge>
+    <edge source="RubricAssociation" target="AssessmentRequest">
+      <point x="256.0" y="96.75" />
+      <point x="9422.0" y="5133.191763527508" />
+      <point x="9502.0" y="8901.955137076773" />
+      <point x="-239.0" y="-108.0" />
+    </edge>
+    <edge source="AssessmentQuestion" target="QuizQuestion">
+      <point x="193.5" y="-70.5" />
+      <point x="6453.0" y="4741.042637076773" />
+      <point x="6533.0" y="4775.191763527508" />
+      <point x="9422.0" y="4775.191763527508" />
+      <point x="9502.0" y="4611.691763527508" />
+      <point x="-235.5" y="80.0" />
+    </edge>
+    <edge source="Account" target="Progress">
+      <point x="434.5" y="-121.3043478260879" />
+      <point x="979.0" y="2166.5" />
+      <point x="4791.0" y="2166.5" />
+      <point x="4871.0" y="4442.792637076773" />
+      <point x="-177.5" y="-65.25" />
+    </edge>
+    <edge source="QuizQuestion::TrueFalseQuestion" target="QuizQuestion::MultipleChoiceQuestion">
+      <point x="120.0" y="-0.0" />
+      <point x="15058.0" y="83.50000000000003" />
+      <point x="15138.0" y="56.25" />
+      <point x="-134.5" y="7.25" />
+    </edge>
+    <edge source="QuizGroup" target="QuizQuestion">
+      <point x="175.0" y="-0.0" />
+      <point x="-235.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="Eportfolio">
+      <point x="523.5" y="-180.1481481481478" />
+      <point x="4871.0" y="10310.955137076773" />
+      <point x="-183.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="ZipFileImport">
+      <point x="523.5" y="168.8888888888887" />
+      <point x="4871.0" y="14322.580137076773" />
+      <point x="-173.5" y="-0.0" />
+    </edge>
+    <edge source="Collection" target="UserFollow">
+      <point x="173.5" y="60.0" />
+      <point x="7624.0" y="12517.580137076773" />
+      <point x="7704.0" y="12177.125873549265" />
+      <point x="-152.0" y="-0.0" />
+    </edge>
+    <edge source="QuizQuestion::UnknownQuestion" target="QuizQuestion::Base">
+      <point x="118.0" y="-0.0" />
+      <point x="15433.0" y="394.0" />
+      <point x="-77.0" y="3.2222222222222285" />
+    </edge>
+    <edge source="Course" target="Rubric">
+      <point x="611.5" y="-412.1379310344819" />
+      <point x="3022.0" y="5273.8125" />
+      <point x="4791.0" y="5273.8125" />
+      <point x="4871.0" y="4660.042637076773" />
+      <point x="7624.0" y="4660.042637076773" />
+      <point x="7704.0" y="5108.542637076773" />
+      <point x="-298.5" y="-90.0" />
+    </edge>
+    <edge source="Course" target="DiscussionTopic">
+      <point x="611.5" y="45.79310344827536" />
+      <point x="3022.0" y="18557.26786979672" />
+      <point x="5594.0" y="18557.26786979672" />
+      <point x="5674.0" y="17306.36585136249" />
+      <point x="7624.0" y="17306.36585136249" />
+      <point x="7704.0" y="15356.70629344204" />
+      <point x="-389.0" y="170.25" />
+    </edge>
+    <edge source="ExternalFeed" target="ExternalFeedEntry">
+      <point x="244.5" y="-0.0" />
+      <point x="7624.0" y="16280.4327991453" />
+      <point x="7704.0" y="16186.992007727753" />
+      <point x="8619.0" y="16186.992007727753" />
+      <point x="8699.0" y="15675.992007727753" />
+      <point x="9422.0" y="15675.992007727753" />
+      <point x="9502.0" y="15593.542007727752" />
+      <point x="-267.5" y="150.0" />
+    </edge>
+    <edge source="QuizQuestion::MultipleAnswersQuestion" target="QuizQuestion::Base">
+      <point x="139.5" y="-0.0" />
+      <point x="-77.0" y="6.444444444444457" />
+    </edge>
+    <edge source="DiscussionTopic" target="DiscussionEntry">
+      <point x="389.0" y="136.20000000000073" />
+      <point x="8619.0" y="15322.65629344204" />
+      <point x="8699.0" y="15175.506293442038" />
+      <point x="-220.5" y="-46.285714285713766" />
+    </edge>
+    <edge source="Course" target="Message">
+      <point x="611.5" y="194.62068965517028" />
+      <point x="3022.0" y="20181.89286979672" />
+      <point x="5594.0" y="20181.89286979672" />
+      <point x="5674.0" y="18527.891713431454" />
+      <point x="6453.0" y="18527.891713431454" />
+      <point x="6533.0" y="18428.36585136249" />
+      <point x="7624.0" y="18428.36585136249" />
+      <point x="7704.0" y="18132.36585136249" />
+      <point x="10930.0" y="18132.36585136249" />
+      <point x="-399.5" y="282.8571428571431" />
+    </edge>
+    <edge source="Account" target="Folder">
+      <point x="434.5" y="153.65217391304395" />
+      <point x="979.0" y="23242.917869796718" />
+      <point x="6453.0" y="23242.917869796718" />
+      <point x="6533.0" y="18291.11585136249" />
+      <point x="-243.5" y="96.75" />
+    </edge>
+    <edge source="SubmissionComment" target="Message">
+      <point x="270.5" y="178.75" />
+      <point x="-399.5" y="-282.8571428571431" />
+    </edge>
+    <edge source="Account" target="Group">
+      <point x="434.5" y="-153.65217391304395" />
+      <point x="979.0" y="2144.5" />
+      <point x="4791.0" y="2144.5" />
+      <point x="4871.0" y="2470.375" />
+      <point x="5594.0" y="2470.375" />
+      <point x="-389.5" y="-231.75" />
+    </edge>
+    <edge source="Attachment" target="Thumbnail">
+      <point x="506.0" y="42.45000000000073" />
+      <point x="12981.0" y="12969.300873549266" />
+      <point x="-188.0" y="-65.25" />
+    </edge>
+    <edge source="User" target="TeacherEnrollment">
+      <point x="523.5" y="292.7407407407409" />
+      <point x="4871.0" y="16076.4327991453" />
+      <point x="7624.0" y="16076.4327991453" />
+      <point x="7704.0" y="16485.492007727753" />
+      <point x="-361.5" y="-0.0" />
+    </edge>
+    <edge source="Rubric" target="ContentTag">
+      <point x="298.5" y="150.0" />
+      <point x="8619.0" y="5348.542637076773" />
+      <point x="-355.0" y="-246.66666666666697" />
+    </edge>
+    <edge source="Account" target="Pseudonym">
+      <point x="434.5" y="-299.217391304348" />
+      <point x="979.0" y="1180.5" />
+      <point x="9422.0" y="1180.5" />
+      <point x="-403.5" y="-272.39999999999964" />
+    </edge>
+    <edge source="StudentViewEnrollment" target="StudentEnrollment">
+      <point x="361.5" y="-0.0" />
+      <point x="4791.0" y="22715.042869796718" />
+      <point x="-361.5" y="-0.0" />
+    </edge>
+    <edge source="Account" target="AbstractCourse">
+      <point x="434.5" y="72.78260869565202" />
+      <point x="979.0" y="17963.891713431454" />
+      <point x="-174.5" y="-70.5" />
+    </edge>
+    <edge source="Conversation" target="ConversationMessage">
+      <point x="159.0" y="-52.0" />
+      <point x="2942.0" y="28.75" />
+      <point x="3022.0" y="20.5" />
+      <point x="13852.0" y="20.5" />
+      <point x="-227.5" y="-122.0" />
+    </edge>
+    <edge source="Course" target="Quiz">
+      <point x="611.5" y="-446.4827586206884" />
+      <point x="3022.0" y="4898.5625" />
+      <point x="4791.0" y="4898.5625" />
+      <point x="4871.0" y="3958.4176370767727" />
+      <point x="7624.0" y="3958.4176370767727" />
+      <point x="-457.5" y="-0.0" />
+    </edge>
+    <edge source="AssessmentRequest" target="SubmissionComment">
+      <point x="239.0" y="-121.5" />
+      <point x="10309.0" y="8888.455137076773" />
+      <point x="-270.5" y="107.25" />
+    </edge>
+    <edge source="AssessmentQuestionBank" target="QuizGroup">
+      <point x="163.5" y="-27.375" />
+      <point x="5594.0" y="4997.191763527508" />
+      <point x="5674.0" y="4963.042637076773" />
+      <point x="8619.0" y="4963.042637076773" />
+      <point x="8699.0" y="4591.691763527508" />
+      <point x="-175.0" y="60.0" />
+    </edge>
+    <edge source="Account" target="ContextExternalTool">
+      <point x="434.5" y="-186.0" />
+      <point x="979.0" y="1840.5" />
+      <point x="5594.0" y="1840.5" />
+      <point x="5674.0" y="5967.941763527508" />
+      <point x="-291.5" y="-157.0" />
+    </edge>
+    <edge source="Group" target="Announcement">
+      <point x="389.5" y="130.7307692307695" />
+      <point x="6533.0" y="15254.740851362489" />
+      <point x="-389.0" y="-255.375" />
+    </edge>
+    <edge source="QuizQuestion::CalculatedQuestion" target="QuizQuestion::NumericalQuestion">
+      <point x="122.5" y="-0.0" />
+      <point x="-120.5" y="-0.0" />
+    </edge>
+    <edge source="CalendarEvent" target="CalendarEvent">
+      <point x="-315.5" y="231.25" />
+      <point x="6743.0" y="21590.64286979672" />
+      <point x="6743.0" y="21656.89286979672" />
+      <point x="7078.5" y="21656.89286979672" />
+      <point x="0.0" y="277.5" />
+    </edge>
+    <edge source="ObserverEnrollment" target="Enrollment">
+      <point x="361.5" y="-0.0" />
+      <point x="5674.0" y="17240.36585136249" />
+      <point x="7624.0" y="17240.36585136249" />
+      <point x="7704.0" y="18187.36585136249" />
+      <point x="8619.0" y="18187.36585136249" />
+      <point x="-361.5" y="-99.31034482758696" />
+    </edge>
+    <edge source="Account" target="CourseSection">
+      <point x="434.5" y="202.17391304347802" />
+      <point x="979.0" y="23543.542869796718" />
+      <point x="-305.5" y="53.625" />
+    </edge>
+    <edge source="User" target="CollectionItemUpvote">
+      <point x="523.5" y="-146.37037037037044" />
+      <point x="4871.0" y="10818.080137076773" />
+      <point x="-164.0" y="-0.0" />
+    </edge>
+    <edge source="GoogleDocsCollaboration" target="Collaboration">
+      <point x="264.5" y="-0.0" />
+      <point x="4791.0" y="17676.01786979672" />
+      <point x="4871.0" y="17479.1827991453" />
+      <point x="-264.5" y="32.25" />
+    </edge>
+    <edge source="Course" target="DiscussionEntry">
+      <point x="611.5" y="80.13793103448188" />
+      <point x="3022.0" y="19165.26786979672" />
+      <point x="5594.0" y="19165.26786979672" />
+      <point x="5674.0" y="17621.36585136249" />
+      <point x="7624.0" y="17621.36585136249" />
+      <point x="7704.0" y="15557.45629344204" />
+      <point x="8619.0" y="15557.45629344204" />
+      <point x="8699.0" y="15221.792007727752" />
+      <point x="-220.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="GradingStandard">
+      <point x="523.5" y="-382.8148148148157" />
+      <point x="4871.0" y="5580.191763527508" />
+      <point x="-209.0" y="101.0" />
+    </edge>
+    <edge source="Course" target="StudentViewEnrollment">
+      <point x="611.5" y="423.5862068965507" />
+      <point x="3022.0" y="22715.042869796718" />
+      <point x="-361.5" y="-0.0" />
+    </edge>
+    <edge source="DesignerEnrollment" target="Enrollment">
+      <point x="361.5" y="-0.0" />
+      <point x="8619.0" y="22020.89286979672" />
+      <point x="-361.5" y="119.17241379310508" />
+    </edge>
+    <edge source="Rubric" target="RubricAssociation">
+      <point x="298.5" y="-150.0" />
+      <point x="8619.0" y="5048.542637076773" />
+      <point x="8699.0" y="5036.441763527508" />
+      <point x="-256.0" y="-0.0" />
+    </edge>
+    <edge source="GroupCategory" target="Assignment">
+      <point x="143.5" y="-44.25" />
+      <point x="3634.0" y="2413.975873549265" />
+      <point x="3714.0" y="2260.0" />
+      <point x="4791.0" y="2260.0" />
+      <point x="4871.0" y="1895.375" />
+      <point x="6453.0" y="1895.375" />
+      <point x="-545.5" y="-346.0" />
+    </edge>
+    <edge source="ConversationMessage" target="AttachmentAssociation">
+      <point x="227.5" y="91.5" />
+      <point x="-113.5" y="-38.0" />
+    </edge>
+    <edge source="User" target="Folder">
+      <point x="523.5" y="360.2962962962956" />
+      <point x="4871.0" y="16757.77252429048" />
+      <point x="6453.0" y="16757.77252429048" />
+      <point x="6533.0" y="18162.11585136249" />
+      <point x="-243.5" y="-32.25" />
+    </edge>
+    <edge source="Collection" target="CollectionItem">
+      <point x="173.5" y="-60.0" />
+      <point x="7624.0" y="12397.580137076773" />
+      <point x="7704.0" y="11514.680137076773" />
+      <point x="-157.0" y="49.5" />
+    </edge>
+    <edge source="Collaboration" target="User">
+      <point x="-264.5" y="-161.25" />
+      <point x="4871.0" y="17285.6827991453" />
+      <point x="523.5" y="382.8148148148139" />
+    </edge>
+    <edge source="Account" target="ErrorReport">
+      <point x="434.5" y="-266.86956521739194" />
+      <point x="979.0" y="1416.5" />
+      <point x="-252.5" y="-0.0" />
+    </edge>
+    <edge source="Account" target="SisBatch">
+      <point x="434.5" y="-347.73913043478206" />
+      <point x="979.0" y="250.5" />
+      <point x="12901.0" y="250.5" />
+      <point x="12981.0" y="6465.687499999999" />
+      <point x="-223.5" y="-91.5" />
+    </edge>
+    <edge source="Course" target="CourseSection">
+      <point x="611.5" y="480.8275862068949" />
+      <point x="-305.5" y="-53.625" />
+    </edge>
+    <edge source="ClonedItem" target="Attachment">
+      <point x="139.5" y="-0.0" />
+      <point x="7624.0" y="16635.77252429048" />
+      <point x="7704.0" y="16783.992007727753" />
+      <point x="8619.0" y="16783.992007727753" />
+      <point x="8699.0" y="15802.992007727753" />
+      <point x="11809.0" y="15802.992007727753" />
+      <point x="-506.0" y="121.28571428571377" />
+    </edge>
+    <edge source="EnrollmentTerm" target="Enrollment">
+      <point x="265.5" y="129.375" />
+      <point x="1619.0" y="23855.917869796718" />
+      <point x="1699.0" y="23814.417869796718" />
+      <point x="8619.0" y="23814.417869796718" />
+      <point x="-361.5" y="258.20689655172464" />
+    </edge>
+    <edge source="CourseProfile" target="Profile">
+      <point x="173.5" y="-0.0" />
+      <point x="-173.5" y="-0.0" />
+    </edge>
+    <edge source="User" target="UserAccountAssociation">
+      <point x="523.5" y="-416.59259259259306" />
+      <point x="4871.0" y="4120.066763527508" />
+      <point x="-120.0" y="39.0" />
+    </edge>
+    <edge source="AbstractCourse" target="Course">
+      <point x="174.5" y="-0.0" />
+      <point x="1619.0" y="18034.391713431454" />
+      <point x="1699.0" y="18091.141713431454" />
+      <point x="-611.5" y="-62.25" />
+    </edge>
+    <edge source="QuizQuestion::FillInMultipleBlanksQuestion" target="QuizQuestion::Base">
+      <point x="147.5" y="-0.0" />
+      <point x="-77.0" y="-0.0" />
+    </edge>
+    <edge source="User" target="GroupMembership">
+      <point x="523.5" y="22.51851851851825" />
+      <point x="4871.0" y="12138.830137076773" />
+      <point x="6453.0" y="12138.830137076773" />
+      <point x="6533.0" y="12160.705137076773" />
+      <point x="-167.5" y="-27.375" />
+    </edge>
+    <edge source="Folder" target="Attachment">
+      <point x="243.5" y="129.0" />
+      <point x="7624.0" y="18323.36585136249" />
+      <point x="7704.0" y="18165.36585136249" />
+      <point x="11809.0" y="18165.36585136249" />
+      <point x="-506.0" y="242.57142857142935" />
+    </edge>
+    <edge source="ContextExternalTool" target="ContentTag">
+      <point x="291.5" y="-0.0" />
+      <point x="8619.0" y="6124.941763527508" />
+      <point x="-355.0" y="-61.66666666666697" />
+    </edge>
+    <edge source="Eportfolio" target="EportfolioEntry">
+      <point x="183.5" y="-87.0" />
+      <point x="5594.0" y="10223.955137076773" />
+      <point x="5674.0" y="10211.955137076773" />
+      <point x="6453.0" y="10211.955137076773" />
+      <point x="6533.0" y="10180.455137076773" />
+      <point x="-235.5" y="-81.0" />
+    </edge>
+    <edge source="Wiki" target="WikiPage">
+      <point x="89.0" y="-0.0" />
+      <point x="7624.0" y="21003.89286979672" />
+      <point x="7704.0" y="18695.11585136249" />
+      <point x="-246.0" y="112.5" />
+    </edge>
+    <edge source="ConversationMessage" target="Attachment">
+      <point x="-227.5" y="122.0" />
+      <point x="13852.0" y="12893.550873549266" />
+      <point x="12981.0" y="12893.550873549266" />
+      <point x="506.0" y="-42.45000000000073" />
+    </edge>
+    <edge source="Course" target="MediaObject">
+      <point x="611.5" y="435.03448275861956" />
+      <point x="3022.0" y="23013.542869796718" />
+      <point x="12901.0" y="23013.542869796718" />
+      <point x="12981.0" y="14612.3077991453" />
+      <point x="-263.5" y="171.60000000000036" />
+    </edge>
+    <edge source="Account" target="Attachment">
+      <point x="434.5" y="331.56521739130403" />
+      <point x="979.0" y="24140.542869796718" />
+      <point x="11809.0" y="24140.542869796718" />
+      <point x="-506.0" y="404.28571428571377" />
+    </edge>
+    <edge source="AppointmentGroup" target="AppointmentGroupSubContext">
+      <point x="279.0" y="-112.5" />
+      <point x="-163.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="AssessmentQuestionBank">
+      <point x="611.5" y="-389.2413793103442" />
+      <point x="3022.0" y="5623.975873549264" />
+      <point x="4791.0" y="5623.975873549264" />
+      <point x="4871.0" y="5024.566763527508" />
+      <point x="-163.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="CourseAccountAssociation">
+      <point x="611.5" y="446.4827586206884" />
+      <point x="3022.0" y="23099.792869796718" />
+      <point x="-130.0" y="-22.125" />
+    </edge>
+    <edge source="ContextModuleSubHeader" target="Tableless">
+      <point x="98.5" y="-0.0" />
+      <point x="-46.5" y="-7.25" />
+    </edge>
+    <edge source="ScribdMimeType" target="Attachment">
+      <point x="117.5" y="-0.0" />
+      <point x="11809.0" y="14573.080137076773" />
+      <point x="-506.0" y="80.85714285714312" />
+    </edge>
+    <edge source="WebConference" target="WebConferenceParticipant">
+      <point x="306.0" y="-123.0" />
+      <point x="3714.0" y="5915.441763527508" />
+      <point x="4791.0" y="5915.441763527508" />
+      <point x="4871.0" y="7443.955137076773" />
+      <point x="-163.0" y="-44.25" />
+    </edge>
+    <edge source="User" target="TaEnrollment">
+      <point x="523.5" y="439.1111111111095" />
+      <point x="-361.5" y="-144.0" />
+    </edge>
+    <edge source="Course" target="ContentTag">
+      <point x="611.5" y="-366.3448275862065" />
+      <point x="3022.0" y="5926.441763527508" />
+      <point x="4791.0" y="5926.441763527508" />
+      <point x="4871.0" y="5641.191763527508" />
+      <point x="8619.0" y="5641.191763527508" />
+      <point x="-355.0" y="-123.33333333333303" />
+    </edge>
+    <edge source="User" target="Submission">
+      <point x="523.5" y="-258.9629629629635" />
+      <point x="4871.0" y="8307.205137076773" />
+      <point x="12901.0" y="8307.205137076773" />
+      <point x="-435.5" y="-139.09090909090992" />
+    </edge>
+    <edge source="Account" target="AssessmentQuestionBank">
+      <point x="434.5" y="-72.78260869565202" />
+      <point x="979.0" y="2764.5625" />
+      <point x="4791.0" y="2764.5625" />
+      <point x="4871.0" y="4951.566763527508" />
+      <point x="-163.5" y="-73.0" />
+    </edge>
+    <edge source="Group" target="Message">
+      <point x="389.5" y="-154.5" />
+      <point x="6533.0" y="13064.865851362489" />
+      <point x="10930.0" y="13064.865851362489" />
+      <point x="-399.5" y="188.57142857142935" />
+    </edge>
+    <edge source="Submission" target="AssessmentRequest">
+      <point x="-435.5" y="208.63636363636397" />
+      <point x="12901.0" y="9015.455137076773" />
+      <point x="10389.0" y="9015.455137076773" />
+      <point x="10309.0" y="9050.455137076773" />
+      <point x="239.0" y="40.5" />
+    </edge>
+    <edge source="AssessmentQuestionBank" target="AssessmentQuestion">
+      <point x="163.5" y="-82.125" />
+      <point x="5594.0" y="4942.441763527508" />
+      <point x="5674.0" y="4905.542637076773" />
+      <point x="-193.5" y="94.0" />
+    </edge>
+    <edge source="DiscussionTopic" target="ExternalFeedEntry">
+      <point x="389.0" y="272.39999999999964" />
+      <point x="8619.0" y="15458.856293442037" />
+      <point x="8699.0" y="15434.292007727752" />
+      <point x="9422.0" y="15434.292007727752" />
+      <point x="9502.0" y="15443.542007727752" />
+      <point x="-267.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="User">
+      <point x="611.5" y="-228.96551724138044" />
+      <point x="3022.0" y="12097.200826731947" />
+      <point x="3634.0" y="12097.200826731947" />
+      <point x="3714.0" y="12005.183585352635" />
+      <point x="-523.5" y="-62.89655172413768" />
+    </edge>
+    <edge source="AssessmentQuestionBank" target="ContentTag">
+      <point x="163.5" y="27.375" />
+      <point x="5594.0" y="5051.941763527508" />
+      <point x="5674.0" y="5434.042637076773" />
+      <point x="8619.0" y="5434.042637076773" />
+      <point x="-355.0" y="-185.0" />
+    </edge>
+    <edge source="Account" target="AssessmentQuestion">
+      <point x="434.5" y="-202.17391304347802" />
+      <point x="979.0" y="1829.5" />
+      <point x="5594.0" y="1829.5" />
+      <point x="5674.0" y="4717.542637076773" />
+      <point x="-193.5" y="-94.0" />
+    </edge>
+    <edge source="User" target="UserNote">
+      <point x="523.5" y="191.40740740740694" />
+      <point x="4871.0" y="14573.080137076773" />
+      <point x="-174.5" y="-0.0" />
+    </edge>
+    <edge source="Account" target="CourseAccountAssociation">
+      <point x="434.5" y="250.6956521739121" />
+      <point x="979.0" y="23920.542869796718" />
+      <point x="9422.0" y="23920.542869796718" />
+      <point x="9502.0" y="23188.292869796718" />
+      <point x="-130.0" y="66.375" />
+    </edge>
+    <edge source="User" target="Message">
+      <point x="523.5" y="67.55555555555475" />
+      <point x="4871.0" y="13020.865851362489" />
+      <point x="10930.0" y="13020.865851362489" />
+      <point x="-399.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="Attachment">
+      <point x="611.5" y="228.96551724138044" />
+      <point x="3022.0" y="20422.89286979672" />
+      <point x="5594.0" y="20422.89286979672" />
+      <point x="5674.0" y="18656.641713431454" />
+      <point x="7624.0" y="18656.641713431454" />
+      <point x="7704.0" y="18347.11585136249" />
+      <point x="11809.0" y="18347.11585136249" />
+      <point x="-506.0" y="363.8571428571431" />
+    </edge>
+    <edge source="Announcement" target="DiscussionTopic">
+      <point x="389.0" y="-0.0" />
+      <point x="7624.0" y="15510.115851362489" />
+      <point x="7704.0" y="15152.40629344204" />
+      <point x="-389.0" y="-34.04999999999927" />
+    </edge>
+    <edge source="Enrollment" target="RoleOverride">
+      <point x="361.5" y="-0.0" />
+      <point x="10930.0" y="21648.452850355236" />
+      <point x="11010.0" y="23142.604213431456" />
+      <point x="-230.5" y="-97.875" />
+    </edge>
+    <edge source="DimDimConference" target="WebConference">
+      <point x="306.0" y="-0.0" />
+      <point x="2942.0" y="3564.0625" />
+      <point x="-306.0" y="-61.5" />
+    </edge>
+    <edge source="StreamItem" target="StreamItemInstance">
+      <point x="147.5" y="-49.5" />
+      <point x="4791.0" y="91.5" />
+      <point x="4871.0" y="2327.125" />
+      <point x="-143.5" y="-44.25" />
+    </edge>
+    <edge source="Rubric" target="RubricAssessment">
+      <point x="298.5" y="-0.0" />
+      <point x="8619.0" y="5198.542637076773" />
+      <point x="8699.0" y="5259.691763527508" />
+      <point x="13852.0" y="5259.691763527508" />
+      <point x="-232.0" y="-64.79999999999927" />
+    </edge>
+    <edge source="Course" target="GradingStandard">
+      <point x="611.5" y="-377.79310344827536" />
+      <point x="3022.0" y="5879.821211687389" />
+      <point x="4791.0" y="5879.821211687389" />
+      <point x="4871.0" y="5479.191763527508" />
+      <point x="-209.0" y="-0.0" />
+    </edge>
+    <edge source="Enrollment" target="Pseudonym">
+      <point x="361.5" y="-192.0" />
+      <point x="-403.5" y="272.39999999999964" />
+    </edge>
+    <edge source="DiscussionEntry" target="DiscussionEntry">
+      <point x="-220.5" y="46.28571428571422" />
+      <point x="8800.0" y="15268.077722013468" />
+      <point x="8800.0" y="15423.792007727752" />
+      <point x="9207.5" y="15423.792007727752" />
+      <point x="147.0" y="162.0" />
+    </edge>
+    <edge source="Assignment" target="Ignore">
+      <point x="545.5" y="-155.69999999999982" />
+      <point x="7704.0" y="6380.441763527508" />
+      <point x="-147.5" y="-0.0" />
+    </edge>
+    <edge source="Group" target="Collaboration">
+      <point x="-389.5" y="128.75" />
+      <point x="5594.0" y="17317.9327991453" />
+      <point x="264.5" y="-129.0" />
+    </edge>
+    <edge source="Account" target="GradingStandard">
+      <point x="434.5" y="-56.60869565217399" />
+      <point x="979.0" y="2775.5625" />
+      <point x="4791.0" y="2775.5625" />
+      <point x="4871.0" y="5378.191763527508" />
+      <point x="-209.0" y="-101.0" />
+    </edge>
+    <edge source="Account" target="RubricAssociation">
+      <point x="434.5" y="-283.04347826086996" />
+      <point x="979.0" y="1191.5" />
+      <point x="8619.0" y="1191.5" />
+      <point x="8699.0" y="4881.641763527507" />
+      <point x="-256.0" y="-154.8000000000011" />
+    </edge>
+    <edge source="Course" target="ExternalFeed">
+      <point x="611.5" y="22.89655172413768" />
+      <point x="3022.0" y="18535.26786979672" />
+      <point x="5594.0" y="18535.26786979672" />
+      <point x="5674.0" y="17284.36585136249" />
+      <point x="6453.0" y="17284.36585136249" />
+      <point x="6533.0" y="16377.1827991453" />
+      <point x="-244.5" y="96.75" />
+    </edge>
+    <edge source="Assignment" target="RubricAssociation">
+      <point x="545.5" y="-259.5" />
+      <point x="7704.0" y="6233.105137076773" />
+      <point x="8619.0" y="6233.105137076773" />
+      <point x="8699.0" y="5113.841763527507" />
+      <point x="-256.0" y="77.39999999999964" />
+    </edge>
+    <edge source="Submission" target="AttachmentAssociation">
+      <point x="435.5" y="306.0" />
+      <point x="13932.0" y="9034.659722222223" />
+      <point x="-113.5" y="-0.0" />
+    </edge>
+    <edge source="CourseSection" target="User">
+      <point x="305.5" y="-190.66666666666788" />
+      <point x="3714.0" y="12445.459447421603" />
+      <point x="-523.5" y="377.3793103448279" />
+    </edge>
+    <edge source="User" target="Collaborator">
+      <point x="523.5" y="146.37037037037044" />
+      <point x="4871.0" y="13881.080137076773" />
+      <point x="6453.0" y="13881.080137076773" />
+      <point x="6533.0" y="13857.080137076773" />
+      <point x="-190.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="ContentExport">
+      <point x="611.5" y="171.7241379310326" />
+      <point x="3022.0" y="20159.89286979672" />
+      <point x="3634.0" y="20159.89286979672" />
+      <point x="3714.0" y="20086.39286979672" />
+      <point x="-183.5" y="65.25" />
+    </edge>
+    <edge source="User" target="RubricAssociation">
+      <point x="523.5" y="-304.0" />
+      <point x="4871.0" y="8108.205137076773" />
+      <point x="8619.0" y="8108.205137076773" />
+      <point x="8699.0" y="5191.241763527509" />
+      <point x="-256.0" y="154.8000000000011" />
+    </edge>
+    <edge source="Quiz" target="QuizSubmission">
+      <point x="457.5" y="276.0" />
+      <point x="8699.0" y="5589.812499999999" />
+      <point x="-296.5" y="-128.25" />
+    </edge>
+    <edge source="DiscussionEntry" target="DiscussionEntryParticipant">
+      <point x="220.5" y="-81.0" />
+      <point x="9422.0" y="15140.792007727752" />
+      <point x="9502.0" y="15048.756293442038" />
+      <point x="-123.0" y="28.5" />
+    </edge>
+    <edge source="RoleOverride" target="Role">
+      <point x="230.5" y="-0.0" />
+      <point x="11809.0" y="23240.479213431456" />
+      <point x="11889.0" y="23616.542869796718" />
+      <point x="-174.0" y="-73.0" />
+    </edge>
+    <edge source="AssignmentGroup" target="Assignment">
+      <point x="284.0" y="-86.25" />
+      <point x="6453.0" y="6486.691763527508" />
+      <point x="-545.5" y="-115.33333333333303" />
+    </edge>
+    <edge source="Course" target="Submission">
+      <point x="611.5" y="-435.03448275861956" />
+      <point x="3022.0" y="5116.3125" />
+      <point x="4791.0" y="5116.3125" />
+      <point x="4871.0" y="4367.042637076773" />
+      <point x="12901.0" y="4367.042637076773" />
+      <point x="-435.5" y="-347.727272727273" />
+    </edge>
+    <edge source="BigBlueButtonConference" target="WebConference">
+      <point x="306.0" y="-0.0" />
+      <point x="2942.0" y="4096.0625" />
+      <point x="-306.0" y="61.5" />
+    </edge>
+    <edge source="Quiz" target="QuizGroup">
+      <point x="457.5" y="-0.0" />
+      <point x="8699.0" y="4471.691763527508" />
+      <point x="-175.0" y="-60.0" />
+    </edge>
+    <edge source="User" target="ScribdAccount">
+      <point x="523.5" y="157.62962962962956" />
+      <point x="4871.0" y="14074.080137076773" />
+      <point x="-152.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="AppointmentGroupContext">
+      <point x="611.5" y="-274.7586206896558" />
+      <point x="3022.0" y="9890.721211687389" />
+      <point x="-149.0" y="44.25" />
+    </edge>
+    <edge source="Course" target="Account">
+      <point x="-611.5" y="-186.75" />
+      <point x="1699.0" y="17966.641713431454" />
+      <point x="1619.0" y="17882.891713431454" />
+      <point x="979.0" y="17882.891713431454" />
+      <point x="434.5" y="56.60869565217399" />
+    </edge>
+    <edge source="ExternalUrl" target="Tableless">
+      <point x="51.0" y="-0.0" />
+      <point x="21182.0" y="83.5" />
+      <point x="-46.5" y="7.25" />
+    </edge>
+    <edge source="Course" target="Collaboration">
+      <point x="611.5" y="-68.68965517241304" />
+      <point x="3022.0" y="18307.01786979672" />
+      <point x="4791.0" y="18307.01786979672" />
+      <point x="4871.0" y="17608.1827991453" />
+      <point x="-264.5" y="161.25" />
+    </edge>
+    <edge source="ContentTag" target="LearningOutcomeResult">
+      <point x="355.0" y="-0.0" />
+      <point x="9502.0" y="9307.955137076773" />
+      <point x="-332.5" y="-192.0" />
+    </edge>
+    <edge source="BookmarkService" target="UserService">
+      <point x="283.5" y="-0.0" />
+      <point x="4791.0" y="475.5" />
+      <point x="4871.0" y="801.5" />
+      <point x="-283.5" y="-143.0" />
+    </edge>
+    <edge source="User" target="QuizSubmission">
+      <point x="523.5" y="-292.7407407407409" />
+      <point x="4871.0" y="8119.205137076773" />
+      <point x="8619.0" y="8119.205137076773" />
+      <point x="8699.0" y="5846.312499999999" />
+      <point x="-296.5" y="128.25" />
+    </edge>
+    <edge source="Submission" target="ConversationMessage">
+      <point x="435.5" y="-0.0" />
+      <point x="-227.5" y="-0.0" />
+    </edge>
+    <edge source="SubmissionComment" target="SubmissionCommentParticipant">
+      <point x="270.5" y="-178.75" />
+      <point x="11010.0" y="8257.705137076773" />
+      <point x="-153.0" y="39.0" />
+    </edge>
+    <edge source="CourseSection" target="StudentEnrollment">
+      <point x="305.5" y="-95.33333333333212" />
+      <point x="3714.0" y="23322.417869796718" />
+      <point x="4791.0" y="23322.417869796718" />
+      <point x="-361.5" y="230.40000000000146" />
+    </edge>
+    <edge source="Course" target="ContentParticipationCount">
+      <point x="611.5" y="217.5172413793116" />
+      <point x="3022.0" y="20313.39286979672" />
+      <point x="-158.0" y="-0.0" />
+    </edge>
+    <edge source="DiscussionTopic" target="DiscussionTopicParticipant">
+      <point x="389.0" y="-272.39999999999964" />
+      <point x="-154.0" y="-0.0" />
+    </edge>
+    <edge source="ConversationMessage" target="ConversationMessageParticipant">
+      <point x="227.5" y="-91.5" />
+      <point x="-120.0" y="33.75" />
+    </edge>
+    <edge source="DiscussionTopic" target="DiscussionTopic">
+      <point x="-389.0" y="306.45000000000005" />
+      <point x="7752.5" y="15492.906293442038" />
+      <point x="7752.5" y="15546.95629344204" />
+      <point x="8161.5" y="15546.95629344204" />
+      <point x="0.0" y="340.5" />
+    </edge>
+    <edge source="User" target="SubmissionComment">
+      <point x="523.5" y="-247.70370370370438" />
+      <point x="4871.0" y="8672.205137076773" />
+      <point x="-270.5" y="-107.25" />
+    </edge>
+    <edge source="Account" target="ReportSnapshot">
+      <point x="434.5" y="-218.34782608695605" />
+      <point x="979.0" y="1741.0" />
+      <point x="-105.5" y="-0.0" />
+    </edge>
+    <edge source="Course" target="CalendarEvent">
+      <point x="611.5" y="309.1034482758623" />
+      <point x="3022.0" y="21324.14286979672" />
+      <point x="6453.0" y="21324.14286979672" />
+      <point x="6533.0" y="21405.64286979672" />
+      <point x="-315.5" y="46.25" />
+    </edge>
+    <edge source="Course" target="Folder">
+      <point x="611.5" y="114.4827586206884" />
+      <point x="3022.0" y="19294.89286979672" />
+      <point x="5594.0" y="19294.89286979672" />
+      <point x="5674.0" y="17928.891713431454" />
+      <point x="6453.0" y="17928.891713431454" />
+      <point x="6533.0" y="18205.11585136249" />
+      <point x="-243.5" y="10.75" />
+    </edge>
+    <edge source="Group" target="UserFollow">
+      <point x="389.5" y="-178.2692307692305" />
+      <point x="6533.0" y="13053.865851362489" />
+      <point x="7624.0" y="13053.865851362489" />
+      <point x="7704.0" y="12239.525873549264" />
+      <point x="-152.0" y="62.399999999999636" />
+    </edge>
+    <edge source="User" target="AccountReport">
+      <point x="523.5" y="-191.40740740740694" />
+      <point x="4871.0" y="9798.455137076773" />
+      <point x="-185.0" y="-0.0" />
+    </edge>
+    <edge source="CommunicationChannel" target="Pseudonym">
+      <point x="-206.0" y="35.25" />
+      <point x="10389.0" y="11028.830137076773" />
+      <point x="403.5" y="-227.0" />
+    </edge>
+    <edge source="UserProfile" target="UserProfileLink">
+      <point x="80.5" y="-0.0" />
+      <point x="-109.0" y="-0.0" />
+    </edge>
+    <edge source="User" target="Progress">
+      <point x="523.5" y="-405.33333333333394" />
+      <point x="4871.0" y="4573.292637076773" />
+      <point x="-177.5" y="65.25" />
+    </edge>
+    <edge source="Account" target="UserAccountAssociation">
+      <point x="434.5" y="-137.47826086956593" />
+      <point x="979.0" y="2155.5" />
+      <point x="4791.0" y="2155.5" />
+      <point x="4871.0" y="4042.0667635275076" />
+      <point x="-120.0" y="-39.0" />
+    </edge>
+    <edge source="Group" target="MediaObject">
+      <point x="389.5" y="-59.42307692307622" />
+      <point x="6533.0" y="13534.080137076773" />
+      <point x="12901.0" y="13534.080137076773" />
+      <point x="12981.0" y="14354.9077991453" />
+      <point x="-263.5" y="-85.79999999999927" />
+    </edge>
+    <edge source="ContentExport" target="Attachment">
+      <point x="183.5" y="-0.0" />
+      <point x="4791.0" y="20021.14286979672" />
+      <point x="4871.0" y="20192.89286979672" />
+      <point x="5594.0" y="20192.89286979672" />
+      <point x="5674.0" y="18538.891713431454" />
+      <point x="7624.0" y="18538.891713431454" />
+      <point x="7704.0" y="18176.36585136249" />
+      <point x="11809.0" y="18176.36585136249" />
+      <point x="-506.0" y="283.0" />
+    </edge>
+    <edge source="Group" target="Attachment">
+      <point x="389.5" y="-83.19230769230853" />
+      <point x="6533.0" y="13311.080137076773" />
+      <point x="11809.0" y="13311.080137076773" />
+      <point x="-506.0" y="-0.0" />
+    </edge>
+    <edge source="Enrollment" target="CourseAccountAssociation">
+      <point x="361.5" y="192.0" />
+      <point x="9502.0" y="23055.542869796718" />
+      <point x="-130.0" y="-66.375" />
+    </edge>
+    <edge source="QuizQuestion::MissingWordQuestion" target="QuizQuestion::MultipleChoiceQuestion">
+      <point x="128.5" y="-0.0" />
+      <point x="15058.0" y="14.5" />
+      <point x="15138.0" y="41.75" />
+      <point x="-134.5" y="-7.25" />
+    </edge>
+    <edge source="Group" target="Collaborator">
+      <point x="389.5" y="59.42307692307622" />
+      <point x="6533.0" y="13798.080137076773" />
+      <point x="-190.5" y="-59.0" />
+    </edge>
+    <edge source="DeveloperKey" target="PageView">
+      <point x="180.0" y="94.0" />
+      <point x="5594.0" y="12010.580137076773" />
+      <point x="5674.0" y="20469.89286979672" />
+      <point x="-296.5" y="-178.0" />
+    </edge>
+    <edge source="User" target="WebConferenceParticipant">
+      <point x="523.5" y="-371.55555555555475" />
+      <point x="4871.0" y="7532.455137076773" />
+      <point x="-163.0" y="44.25" />
+    </edge>
+    <edge source="Conversation" target="StreamItem">
+      <point x="159.0" y="52.0" />
+      <point x="2942.0" y="132.75" />
+      <point x="3022.0" y="141.0" />
+      <point x="-147.5" y="-0.0" />
+    </edge>
+    <edge source="CourseSection" target="Enrollment">
+      <point x="305.5" y="95.33333333333212" />
+      <point x="3714.0" y="23456.917869796718" />
+      <point x="8619.0" y="23456.917869796718" />
+      <point x="-361.5" y="218.4827586206884" />
+    </edge>
+    <edge source="Group" target="ScribdAccount">
+      <point x="389.5" y="83.19230769230853" />
+      <point x="6533.0" y="14015.080137076773" />
+      <point x="-152.5" y="-59.0" />
+    </edge>
+    <edge source="Course" target="CourseImport">
+      <point x="611.5" y="148.82758620689492" />
+      <point x="3022.0" y="19591.89286979672" />
+      <point x="-199.5" y="-0.0" />
+    </edge>
+    <edge source="ClonedItem" target="DiscussionTopic">
+      <point x="139.5" y="-45.0" />
+      <point x="7624.0" y="16590.77252429048" />
+      <point x="7704.0" y="15288.606293442037" />
+      <point x="-389.0" y="102.14999999999964" />
+    </edge>
+    <edge source="TaEnrollment" target="Enrollment">
+      <point x="361.5" y="-0.0" />
+      <point x="5674.0" y="17895.891713431454" />
+      <point x="6453.0" y="17895.891713431454" />
+      <point x="6533.0" y="18485.76786979672" />
+      <point x="7624.0" y="18485.76786979672" />
+      <point x="7704.0" y="18884.641713431454" />
+      <point x="8619.0" y="18884.641713431454" />
+      <point x="-361.5" y="-79.44827586206884" />
+    </edge>
+    <edge source="Pseudonym" target="SessionPersistenceToken">
+      <point x="403.5" y="227.0" />
+      <point x="10389.0" y="11336.305137076773" />
+      <point x="-141.5" y="-0.0" />
+    </edge>
+    <edge source="ScribdAccount" target="Attachment">
+      <point x="152.5" y="-0.0" />
+      <point x="11809.0" y="14074.080137076773" />
+      <point x="-506.0" y="40.42857142857065" />
+    </edge>
+    <edge source="RubricAssociation" target="RubricAssessment">
+      <point x="256.0" y="-96.75" />
+      <point x="13852.0" y="4939.691763527508" />
+      <point x="-232.0" y="-129.60000000000036" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="3932.5" y="11761.0" />
+  <SelectedNodes>
+    <node>User</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Association fields</Category>
+    <Category>Migration fields</Category>
+    <Category>System DB fields</Category>
+  </Categories>
+</Diagram>
+

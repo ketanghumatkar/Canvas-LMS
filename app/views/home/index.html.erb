@@ -1,0 +1,31 @@
+<%
+   js_bundle :registration
+   jammit_css :registration
+   content_for :page_title, t('Home Page', "Home Page")
+   content_for :head, include_stylesheets(:common, :media => "all")
+%>
+
+
+<h1>Home</h1>
+<div id="background">
+  <div class="paths-grid is-visible">
+    <div class="paths-main">
+      <div class="alt card-a path-card path-ruby">
+        <div class="clearfix">
+          <div class="pull-left">
+            <ul class="unstyled">
+              <li class="path-badge" id="path-100">
+                <a href="#"><img alt="Ruby Path Badge" height="110" src="http://d1tijy5l7mg5kk.cloudfront.net/assets/path/badge-ruby-sm-d0c54cc4469194e5f0503ff0510baa86.png" width="110">
+                </a></li>
+            </ul>
+            <div><%= @course.syllabus_body.html_safe %></div>
+            <%= link_to "Enroll", register_path, :class => 'enroll' %>
+          </div>
+          <div class="pull-right">
+            <h2 id="registration_video"><a href="http://vimeo.com/35336470" title="Play the Canvas introduction video">Watch a Video</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

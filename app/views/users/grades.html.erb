@@ -1,0 +1,104 @@
+<% 
+  content_for :page_title, join_title(t(:page_title, "Grades"), @current_user.name)
+  add_crumb(@current_user.short_name, context_url(@current_user, :context_url))
+  add_crumb(t('crumbs.grades', 'Grades'), grades_path) 
+  jammit_css :user_grades
+%>
+
+<% if false %>
+<% #TODO: implement previous courses  %>
+<% content_for :right_side do %>
+    <div class="rs-margin-lr rs-margin-top">
+        <a href="#" class="previous_courses_link"><%= image_tag "history.png" %> <%= t('show_previous_courses', 'Show Previous Courses') %></a>
+    </div>
+<% end %>
+<% end %>
+<style>
+</style>
+<% unless @presenter.student_enrollments.empty? %>
+<h2><%= t('titles.current_student_courses', "Courses I'm Taking") %></h2>
+<table class="course_details student_grades">
+<% @presenter.student_enrollments.each do |course, enrollment| %>
+  <tr>
+    <td class="course"><a href="<%= course_student_grades_path(course.id, enrollment.user_id) %>"><%= course.name %></a></td>
+    <td class="percent">
+      <% if course.hide_final_grades? %>
+        --
+      <% elsif enrollment.computed_current_score %>
+        <%= enrollment.computed_current_score %>%
+      <% else %>
+        <span style="font-weight: normal; font-size: 0.9em;"><%= t('no_grade', 'no grade') %></span>
+      <% end %>
+    </td>
+    <td style="display: none;"><a href="#" title="<%= t('send_teacher_message', 'Send a Message to the Teacher') %>" class="no-hover"><%= image_tag "email.png" %></a></td>
+  </tr>
+<% end %>
+</table>
+<% end %>
+<% unless @presenter.observed_enrollments.empty? %>
+<h2 style="margin-top: 20px;"><%= t('linked_student_accounts', 'Linked Student Accounts') %></h2>
+<table class="course_details observer_grades">
+<% @presenter.observed_enrollments.each do |enrollment| %>
+  <tr>
+    <td class="course"><a href="<%= course_student_grades_path(enrollment.course_id, enrollment.user_id) %>"><%= context_user_name(nil, enrollment.user_id) %>, <%= enrollment.course.name %></a></td>
+    <td class="percent">
+      <% if enrollment.course.hide_final_grades? %>
+        --
+      <% elsif enrollment.computed_current_score %>
+        <%= enrollment.computed_current_score %>%
+      <% else %>
+        <span style="font-weight: normal; font-size: 0.9em;"><%= t('no_grade', 'no grade') %></span>
+      <% end %>
+    </td>
+    <td style="display: none;"><a href="#" title="<%= t('send_teacher_message', 'Send a Message to the Teacher') %>" class="no-hover"><%= image_tag "email.png" %></a></td>
+  </tr>
+<% end %>
+</table>
+<% end %>
+<% unless @presenter.teacher_enrollments.empty? %>
+<h2 style="margin-top: 20px;"><%= t('current_teacher_courses', "Courses I'm Teaching") %></h2>
+<table class="course_details teacher_grades">
+<% @presenter.teacher_enrollments.each do |enrollment| %>
+  <tr>
+    <td class="course" style="vertical-align: middle;"><a href="<%= course_grades_path(enrollment.course_id) %>"><%= enrollment.course.name %></a></td>
+    <td class="percent">
+      <% if @presenter.course_grade_summaries[enrollment.course_id][:score] %>
+        <%= number_to_percentage(@presenter.course_grade_summaries[enrollment.course_id][:score], :precision => 2) %>
+        <div style="font-size: 0.6em; font-weight: normal;"><%= t('average_grades', {:one => "average for 1 student", :other => "average for %{count} students"}, :count => @presenter.course_grade_summaries[enrollment.course_id][:students]) %></div>
+      <% else %>
+        <span style="font-weight: normal; font-size: 0.9em;"><%= t('no_grades', 'no grades') %></span>
+      <% end %>
+    </td>
+    <td style="display: none;"><a href="#" title="<%= t('send_teacher_message', 'Send a Message to the Teacher') %>" class="no-hover"><%= image_tag "email.png" %></a></td>
+    <td class="report">
+      <%= link_to(t('links.teacher_activity', 'Student Interactions Report'), user_course_teacher_activity_url(@current_user, enrollment.course_id)) unless @presenter.course_grade_summaries[enrollment.course_id][:students].try(:zero?) %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<% end %>
+<% unless @presenter.prior_enrollments.empty? %>
+<div style="margin-top: 20px; display: none;" id="previous_courses">
+<h2><%= t('titles.previous_courses', 'Previous Courses') %></h2>
+<table class="summary" style="margin-left: 20px; min-width: 350px;">
+  <thead><tr>
+    <th><%= t('course', 'Course') %></th>
+    <th><%= t('percent', 'Percent') %></th>
+  </tr></thead>
+  <% @presenter.prior_enrollments.each do |enrollment| %>
+    <tr>
+      <td><%= enrollment.course.name %></td>
+      <td>
+        <% if enrollment.course.hide_final_grades? %>
+          --
+        <% elsif enrollment.computed_current_score %>
+          <%= enrollment.computed_current_score %>%
+        <% else %>
+          --
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+</div>
+<% end %>
